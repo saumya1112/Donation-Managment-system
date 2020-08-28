@@ -256,3 +256,18 @@ h2{
         padding: 3px 15px;
     text-transform: uppercase;
 }
+
+/*copyright css*/
+
+.footer-bottom-text{
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+    bottom: 0;
+    position: relative;
+    top: 100vh;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+   
+   
+}
