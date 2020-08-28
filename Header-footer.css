@@ -8,9 +8,32 @@
     
     
 }
+
+/* logo CSS */
+
+.navbar-brand img{
+    height: 93px;
+    width: 150px;
+  
+  
+}
+.navbar-brand{
+    position: absolute;
+   
+}
+#logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: cursive;
+    margin: 0;
+    
+   
+}
+
 .header{
     width:100%;
-    height: 70px;
+    height: 100px;
     background-color:rgb(34, 34, 34);
     padding: 0 20px ;
     position: fixed;
@@ -19,7 +42,7 @@
 }
 .header h2{
     line-height: 70px;
-    float:left;
+    float: left;
     text-transform: uppercase;
     color:white;
     font-family:cursive;
@@ -30,7 +53,7 @@
 }
 .menu li{
     display: inline-block;
-    line-height: 70px;
+    line-height: 100px;
 }
 .menu li a{
     text-decoration: none;
@@ -55,6 +78,7 @@
 }
 .show-btn {
    float: right; 
+   padding-top: 10px;
 }
 #chk{
     position:absolute;
@@ -65,7 +89,7 @@
 
 /*first break-point*/
 
-@media(max-width: 800px){
+@media(max-width: 900px){
     .show-btn,.hide-btn{
         display: block;
 
