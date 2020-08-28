@@ -232,3 +232,16 @@ h2{
     color: #fff;
     padding: 10px 12px;
 }
+
+/*column 4 css*/
+
+.segment-four h2 {
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+.segment-four h2::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
