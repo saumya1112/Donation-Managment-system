@@ -24,3 +24,40 @@
     color:white;
     font-family:cursive;
 }
+.header .menu{
+    list-style:none;
+    float: right;
+}
+.menu li{
+    display: inline-block;
+    line-height: 70px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding:0px 20px ;
+    transition: .4s;
+   
+}
+.menu li a:hover,.show-btn:hover,.hide-btn:hover{
+    color: grey;
+
+
+}
+.show-btn,.hide-btn{
+    font-size: 30px;
+    color: white;
+    line-height: 70px;
+    display: none;
+    transition: .4s;
+}
+.show-btn {
+   float: right; 
+}
+#chk{
+    position:absolute;
+    visibility: hidden;
+    z-index: -10;
+}
