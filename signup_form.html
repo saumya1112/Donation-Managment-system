@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-Page</title>
+    <title>SignUp-Page</title>
 
     <!-- Link of Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <!-- Link of Fontawsm CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <!-- ---------Apply Internal CSS---------- -->
+
     <style>
 
         body
@@ -26,12 +25,13 @@
             justify-content: center;
             backdrop-filter: blur(15px);
         }
+
         .card
         {
             overflow: hidden;
             border: 0 !important;
             border-radius: 20px !important;
-            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.836);
+            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
         }
 
         /* -----------image--------------- */
@@ -40,13 +40,14 @@
             width: 45%;
             background: url(assets/images/login_signup_img.jpeg) center;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: 900px;
         }
+
         .card-body
         {
             padding: 2rem;
         }
-
+        
         /* ---------Title Heading h4--------- */
         .title
         {
@@ -82,7 +83,7 @@
             padding-left: 15px;
             color: black;
         }
-
+        
         /* ---------focusing the border of form-input--------- */
         .form-input input:focus, .form-input input:valid
         {
@@ -114,34 +115,48 @@
         <div class="row px-3">
             <div class="col-lg-10 col-xl-9 card flex-row mx-auto px-0">
 
-                <!------------ Image -------------->
+                <!--------- image ---------->
                 <div class="img-left d-none d-md-flex"></div>
 
                 <div class="card-body">
 
-                    <!------- Login heading ------->
+                    <!---------Signin Heading --------->
                     <h4 class="title text-center mt-4">
-                        <i class="fa fa-user-circle-o"></i> Login
+                        <i class="fa fa-user-circle-o"></i> Sign in
                     </h4>
 
                     <form class="form-box px-3">
 
-                        <!---------email--------->
+                        <!-------- username ---------->
+                        <div class="form-input">
+                            <!-- fontawsm icon for username -->
+                            <span><i class="fa fa-user"></i></span>
+                            <input type="text" name="" placeholder="Username" required>
+                        </div>
+
+                        <!-----------email------------>
                         <div class="form-input">
                             <!-- fontawsm icon for email -->
                             <span><i class="fa fa-envelope"></i></span>
                             <input type="email" name="" placeholder="Email Address" tabindex="10" required>
                         </div>
 
-                        <!-------- password ------->
+                        <!--------- password ---------->
                         <div class="form-input">
                             <!-- fontawsm icon for password -->
                             <span><i class="fa fa-lock"></i></span>
                             <input type="password" name="" placeholder="Password" required>
                         </div>
 
+                        <!------- Conferrm password ----->
+                        <div class="form-input">
+                            <!-- fontawsm icon for password -->
+                            <span><i class="fa fa-lock"></i></span>
+                            <input type="password" name="" placeholder="Type Password again" required>
+                        </div>
+
                         <div class="mb-3">
-                            <!------- checkbox ------>
+                            <!----- checkbox ---->
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox" class="custom-control-input"  id="cb1" name="">
                                 <label class="custom-control-label" for="cb1">
@@ -151,20 +166,20 @@
                         </div>
 
                         <div class="mb-3">
-                            <!--------submit button -------->
+                            <!------submit button ------>
                             <button type="submit" class="btn btn-block text-uppercase">
-                                Log in
+                                Sign in
                             </button>
                         </div>
 
-                        <!---- horizontal line ---->
+                        <!-- horizontal line -->
                         <hr class="my-4">
 
                         <!-- create account -->
                         <div class="text-center mb-2">
-                            Don't have an account?
-                            <a href="signup_form.html" class="register-link">
-                                Create here
+                            Already have an account?
+                            <a href="login_form.html" class="register-link">
+                                Login
                             </a>
                         </div>
 
