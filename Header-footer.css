@@ -89,7 +89,7 @@
 
 /*first break-point*/
 
-@media(max-width: 900px){
+@media(max-width: 1120px){
     .show-btn,.hide-btn{
         display: block;
 
