@@ -245,3 +245,14 @@ h2{
     color: #c65039;
     padding-right: 10px;
 }
+
+/*form css*/
+
+.segment-four form input[type=submit]{
+    background: #c65039;
+    border: none;
+    margin-top: 10px;
+    color: #fff;
+        padding: 3px 15px;
+    text-transform: uppercase;
+}
