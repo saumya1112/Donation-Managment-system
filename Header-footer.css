@@ -207,3 +207,28 @@ h2{
     color: #999;
     text-decoration: none;
 }
+
+/*column 3 css*/
+
+.segment-three h2{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+.segment-three h2::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-three a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
