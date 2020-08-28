@@ -180,3 +180,30 @@ h2{
     margin: 10px 0;
 
 }
+
+/*column 2 css*/
+
+.segment-two h2{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+
+}
+.segment-two h2::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-two ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+}
+.segment-two ul li a{
+    color: #999;
+    text-decoration: none;
+}
