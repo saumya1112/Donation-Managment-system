@@ -103,6 +103,21 @@
         right:20px ;
         top: 20px;
     }
+
+     /*footer break-point*/
+
+     .segment-three h2{
+        color: #fff;
+        font-family: Poppins;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    .segment-four h2 {
+        color: #fff;
+        font-family: Poppins;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
 }
  /*second break-point*/
  @media (max-width: 625px) {
