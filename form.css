@@ -1,0 +1,46 @@
+
+
+* {
+    box-sizing: border-box;
+}
+  
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    background-color:rgb(37, 173, 214);
+    width: 30%;
+    padding: 20px;
+    height: 145vh; 
+}
+.column1{
+    float: left;
+    background-color:white;
+    width: 70%;
+    padding: 20px;
+    height: 130vh; 
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+img{
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    width: 80%;
+}
+#donation{
+    text-align: center;
+    font-family: Brush Script MT;
+    font-size: 50px;
+}
+#make{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
