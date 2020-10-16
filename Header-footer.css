@@ -1,0 +1,312 @@
+
+/* HEADER CSS */
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    
+    
+}
+
+/* logo CSS */
+
+.navbar-brand img{
+    height: 93px;
+    width: 150px;
+  
+  
+}
+.navbar-brand{
+    position: absolute;
+   
+}
+#logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: cursive;
+    margin: 0;
+    
+   
+}
+
+.header{
+    width:100%;
+    height: 100px;
+    background-color:rgb(34, 34, 34);
+    padding: 0 20px ;
+    position: fixed;
+    font-family: Poppins;
+   
+}
+.header h2{
+    line-height: 70px;
+    float: left;
+    text-transform: uppercase;
+    color:white;
+    font-family:cursive;
+}
+.header .menu{
+    list-style:none;
+    float: right;
+}
+.menu li{
+    display: inline-block;
+    line-height: 100px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding:0px 20px ;
+    transition: .4s;
+   
+}
+.menu li a:hover,.show-btn:hover,.hide-btn:hover{
+    color: grey;
+
+
+}
+.show-btn,.hide-btn{
+    font-size: 30px;
+    color: white;
+    line-height: 70px;
+    display: none;
+    transition: .4s;
+}
+.show-btn {
+   float: right; 
+   padding-top: 10px;
+}
+#chk{
+    position:absolute;
+    visibility: hidden;
+    z-index: -10;
+}
+/*Responsive CSS */
+
+/*first break-point*/
+
+@media(max-width: 1120px){
+    .show-btn,.hide-btn{
+        display: block;
+
+    }
+    .menu{
+        position: fixed;
+        top: 0;
+
+        /*slider effect*/
+
+        right: -100%;  
+        width: 100%;
+        height: 100vh;
+        background-color: #333;
+        text-align: center;
+        padding: 80px 0;
+        transition: .7s;
+        line-height: normal;
+    }
+    #chk:checked ~ .menu{
+        right: 0;
+
+
+    }
+    .menu li{
+        display: block;
+       
+    }
+    .menu li a{
+        display: block;
+
+    }
+    .hide-btn{
+        position: absolute;
+        right:20px ;
+        top: 20px;
+    }
+
+     /*footer break-point*/
+
+     .segment-three h2{
+        color: #fff;
+        font-family: Poppins;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    .segment-four h2 {
+        color: #fff;
+        font-family: Poppins;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+}
+ /*second break-point*/
+ @media (max-width: 625px) {
+       
+
+    #container {
+      min-width: 320px;
+    }
+
+    .show-btn {
+      display: block;
+    }
+
+    .menu {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 100%;
+      background-color: #333;
+      text-align: center;
+      padding: 80px 0px;
+      line-height: normal;
+      transition: 0.7s;
+    }
+
+    .menu li {
+      display: block;
+    }
+
+    .manu li a {
+      display: block;
+    }
+
+    #chk:checked~.menu {
+      right: 0;
+    }
+
+    .hide-btn {
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 10px;
+    }
+}
+
+/*Footer css*/
+
+p{
+    color: #999;
+    line-height: 25px;
+}
+
+h2,h3{
+    color: #fff;
+}
+h2{
+    font-size: 18px;
+}
+.footer{
+    top: 100vh;
+    background: #111;
+    padding:30px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+/*column 1 css*/
+
+.segment-one h3{
+    font-family: cursive;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+
+}
+
+/*column 2 css*/
+
+.segment-two h2{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+
+}
+.segment-two h2::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-two ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+}
+.segment-two ul li a{
+    color: #999;
+    text-decoration: none;
+}
+
+/*column 3 css*/
+
+.segment-three h2{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+.segment-three h2::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-three a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+/*column 4 css*/
+
+.segment-four h2 {
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+.segment-four h2::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+/*form css*/
+
+.segment-four form input[type=submit]{
+    background: #c65039;
+    border: none;
+    margin-top: 10px;
+    color: #fff;
+        padding: 3px 15px;
+    text-transform: uppercase;
+}
+
+/*copyright css*/
+
+.footer-bottom-text{
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+    bottom: 0;
+    position: relative;
+    top: 100vh;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+   
+   
+}
