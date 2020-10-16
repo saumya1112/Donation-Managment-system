@@ -71,7 +71,9 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #18911e;
+    background-color:rgb(122, 202, 122);
+    border: 4px solid #077c0b;
+    color: black;
 }
 .container {
     border-radius: 5px;
