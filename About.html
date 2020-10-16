@@ -164,6 +164,53 @@
             border-radius: 10px;
             background-color: skyblue;
         }
+
+        .team h1{
+            text-align: center;
+            font-size: 35px;
+            word-spacing: 2px;
+            font-style: italic;
+        }
+
+        .team .circle{
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .team .circle img{
+            border-radius: 50%;
+            height: 225px;
+            width: 225px;
+            float: left;
+            padding: 20px;
+            box-shadow: 5px 5px #888888;
+        }
+
+        .team .circle:hover img {
+            opacity: 1;
+            -webkit-animation: flash 1.5s;
+            animation: flash 1.5s;
+        }
+
+        @-webkit-keyframes flash {
+            0% {
+                opacity: .4;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes flash {
+            0% {
+                opacity: .4;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+
     </style>
 </head>
 <body>
