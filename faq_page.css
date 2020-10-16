@@ -89,3 +89,15 @@ h1{
 .item:target .icon::after{
     transform: rotate(0);
 }
+
+/* -------------breakpoint--------------- */
+@media screen and (max-width:960px){
+    .container{
+      max-width: 600px;
+    }
+  
+    .faqimage, .faq-menu{
+      width: 96%;
+      margin: 20px 0;
+    }
+  }
