@@ -115,3 +115,22 @@ html{
     justify-content: center;
     align-items: center;
 }
+
+
+/* -------------breakpoint 1------------- */
+@media screen and (max-width: 1068px){
+    .blog-post{
+        max-width: 55rem;
+    }
+    blog-post-img{
+        min-width: 30rem;
+        max-width: 30rem;
+    }
+    .head{
+        font-size: 40px;
+        text-align: center;
+        margin: 15px;
+        font-family: cursive;
+        text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+    }
+}
