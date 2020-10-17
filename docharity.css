@@ -1,0 +1,117 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.docharity{
+    width: 100%;
+    background-image: url(background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #eee; */
+    padding: 0 1.5rem;
+
+}
+.charity-banner{
+    width: 100%;
+    height: 350px;
+}
+.charit{
+    background-color: #eee;
+    height: 350px;
+}
+.charity-banner img{
+    width: 100%;
+    height: 350px;
+}
+.docharity{
+    min-height: 150vh;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.blog-post{
+    width: 100%;
+    max-width: 75rem;
+    padding: 2rem;
+    background-color: #fff;
+    box-sizing: 0 1.4rem 8rem rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    border-radius: .8rem;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 9px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 9px 5px 15px 5px rgba(0,0,0,0);
+}
+.blog-post:hover{
+    -webkit-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.72); 
+    box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.72);
+}
+.blog-post-img{
+    min-width: 25rem;
+    max-width: 25rem;
+    height: 15rem;
+    /* for image overlap */
+    transform: translateX(-7rem);
+    position: relative;
+
+}
+.blog-post-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: .8rem;
+
+}
+.blog-post-img::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: .5rem .5rem 3rem  1px rgba(0, 0, 0 , .5);
+    border-radius: .8rem;
+}
+.blog-post-title{
+    font-size: 2rem;
+    margin: 1.3rem 0 2rem;
+    text-transform: uppercase;
+    color: #4facfe;
+    
+}
+.blog-post-text{
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgba(0,0,0,.7);
+}
+.blog-post-button{
+    display: inline-block;
+    padding: 1.2rem 3rem;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-radius: .8rem;
+    text-decoration: none;
+
+}
+.blog-post-button:hover{
+    background-image: linear-gradient(to right, #00f2fe 0%, #4facfe  100%);
+}
+.head{
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+    font-family: cursive;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+}
+.card1, .card2, .card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
