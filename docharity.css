@@ -9,7 +9,7 @@ html{
 }
 .docharity{
     width: 100%;
-    background-image: url(background-img.jpg);
+    background-image: url(assets/images/docharity-page-images/background-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: #eee; */
@@ -147,4 +147,26 @@ html{
         font-family: cursive;
         text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
     }
+}
+
+/* ----------------breakpont3------------------- */
+@media screen and (max-width: 768px){
+    .blog-post{
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .blog-post-img{
+        min-width: 100%;
+        max-width: 100%;
+        height: 25rem;
+        transform: translate(0, -8rem); 
+    }
+    .head{
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 110px;
+        font-family: cursive;
+        text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+    }
+
 }
