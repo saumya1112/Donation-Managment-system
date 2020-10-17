@@ -134,3 +134,17 @@ html{
         text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
     }
 }
+
+/* --------------breakpoint 2--------------- */
+@media screen and (max-width: 868px){
+    .blog-post{
+        max-width: 45rem;
+    }
+    .head{
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+        font-family: cursive;
+        text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+    }
+}
