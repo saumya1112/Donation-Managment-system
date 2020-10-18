@@ -34,3 +34,12 @@ body{
       
       
   }
+  #contact-section .container p{
+    text-align: center; 
+    width: 70%; 
+    margin-left: auto;
+     margin-right: auto; 
+     padding-bottom: 3%;
+     color: #fff;
+     letter-spacing:3px;
+  }
