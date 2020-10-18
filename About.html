@@ -182,7 +182,7 @@
             height: 225px;
             width: 225px;
             float: left;
-            padding: 20px;
+            padding: 18px;
             box-shadow: 5px 5px #888888;
         }
 
@@ -210,23 +210,15 @@
             }
         }
 
-        .team .boxes{
-            position: absolute;
-            top: 266%;
-            left: 0%;
-            transform: translate(-0%,-0%);
-        }
-
         .team .box-1{
             float: left;
-            width: 215px;
+            width: 210px;
             height: 200px;
-            margin-left: 30px;
             padding: 10px;
             background-color: black;
             color: white;
             border-radius: 15px;
-            margin-bottom: 40px;
+            margin: 5px 0px 40px 28px;
         }
 
         .team .box-1:hover{
@@ -245,6 +237,114 @@
             text-align: justify;
         }
 
+        /* Breakpoint for larger laptop screen */
+        @media(min-width: 1440px){
+            .service-txt{
+                top:124%;
+                /* top: 800px; */
+            }
+
+            .service-txt .box{
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+
+            .team .box-1{
+                width: 212px;
+                margin-left: 30px;
+                margin-right: 20px;
+            }
+
+            .team .circle{
+                margin-left: 30px;
+                margin-right: 20px;
+            }
+
+            .tema .circle:last-of-type{
+                margin-left: 40px;
+                margin-right: 30px;
+            }
+    }
+
+    /* Breakpoint for Tablet Screen */
+    @media(max-width: 768px) {
+        .header-img{
+            width: 105%;
+        }
+
+        .header-txt{
+            height: 63vh;
+            width: 100%;
+        }
+
+        .header-txt h1{
+            font-size: 58px;
+            margin: 30px 0px 0px 20px;
+        }
+
+        .header-txt h3{
+            font-size: 27px;
+            margin: 0px 0px 0px 20px;
+        }
+
+        .header-txt p{
+            margin: 10px 350px 55px 20px;
+        }
+
+        .header-txt a:first-of-type{
+            margin: 35px 20px 25px 20px;
+        }
+
+        .header-txt a{
+            font-size: 17px;
+        }
+
+        .service-img{
+            height: 275vh;
+            width: 105%;
+        }
+
+        .service-txt{
+            top: 140%;
+            width: 70%;
+        }
+
+        .service-txt h1{
+            margin-right: 50px;
+        }
+
+        .service-txt .box{
+            width: 500px;
+            margin: 0px 150px 20px 130px;
+        }
+
+        .team .circle{
+            width: 105%;
+        }
+
+        .team .roshni{
+            margin-left: 130px;
+            margin-top: 520px;
+        }
+
+        .team .boxes{
+            position: absolute;
+            top: 470%;
+            left: 0%;
+            transform: translate(-0%, -0%);
+            width: 105%;
+        }
+
+        .team .boxes .roshni-b{
+            margin-top: 239px;
+            margin-left: 140px;
+        }
+
+        .team .boxes .neeti-b{
+            margin-top: 239px;
+            margin-left: 60px;
+        }
+    }
     </style>
 </head>
 <body>
@@ -289,17 +389,19 @@
 
     <div class="team">
         <h1>Our Team</h1>
-        <div class="circle"><img src="../Donation-Managment-system/assets/images/Saumya.jpeg" alt=""></div>
-        <div class="circle"><img src="../Donation-Managment-system/assets/images/Unnati.jpeg" alt=""></div>
-        <div class="circle"><img src="../Donation-Managment-system/assets/images/Nandinee.jpeg" alt=""></div>
-        <div class="circle"><img src="../Donation-Managment-system/assets/images/Roshni.jpeg" alt=""></div>
-        <div class="circle"><img src="../Donation-Managment-system/assets/images/Neeti.jpeg" alt=""></div>
+        <!-- <div class="circles"> -->
+            <div class="circle"><img src="../Donation-Managment-system/assets/images/Saumya.jpeg" alt=""></div>
+            <div class="circle"><img src="../Donation-Managment-system/assets/images/Unnati.jpeg" alt=""></div>
+            <div class="circle"><img src="../Donation-Managment-system/assets/images/Nandinee.jpeg" alt=""></div>
+            <div class="circle roshni"><img src="../Donation-Managment-system/assets/images/Roshni.jpeg" alt=""></div>
+            <div class="circle"><img src="../Donation-Managment-system/assets/images/Neeti.jpeg" alt=""></div>
+        <!-- </div> -->
         <div class="boxes">
             <div class="box-1"><h3>Saumya Gupta</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
             <div class="box-1"><h3>Unnati Goyal</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
             <div class="box-1"><h3>Nandinee Gupta</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
-            <div class="box-1"><h3>Roshni Rawat</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
-            <div class="box-1"><h3>Neeti Jain</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
+            <div class="box-1 roshni-b"><h3>Roshni Rawat</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
+            <div class="box-1 neeti-b"><h3>Neeti Jain</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
         </div>
     </div>
 </body>
