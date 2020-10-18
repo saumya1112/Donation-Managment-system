@@ -24,8 +24,15 @@ body{
       /* text-decoration-color:red; */
       text-underline-position: under;
       color: rgb(238, 235, 235);
-      letter-spacing: 2px;
-      
-      
+      letter-spacing: 2px;   
+  }
+  #contact-section .container p{
+    text-align: center; 
+    width: 70%; 
+    margin-left: auto;
+     margin-right: auto; 
+     padding-bottom: 3%;
+     color: #fff;
+     letter-spacing:3px;
   }
 
