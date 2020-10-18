@@ -3,4 +3,10 @@ body{
     margin: 0px;  
     font-family: sans-serif;
   
-   }   
+   } 
+ .container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+  }
+  /* contact form css */
