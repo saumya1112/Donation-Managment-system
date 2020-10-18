@@ -1,0 +1,26 @@
+body{
+  padding: 0px;
+  margin: 0px;  
+  font-family: sans-serif;
+
+ }   
+
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+  }
+  /* contact form css */
+
+
+  #contact-section{
+    background-image: url(https://www.five9.com/media_library/2017/02/form-background.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100% ;
+    padding-bottom: 2%;
+    
+  }
