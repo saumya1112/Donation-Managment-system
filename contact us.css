@@ -77,3 +77,89 @@ body{
   .hr1{
       margin-top: 0px;
   }
+  .contact-form{
+    display: grid;
+    grid-template-columns: auto auto;
+     }
+  
+  .form-info{
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+    letter-spacing: 2px;
+  }
+  input{
+    padding: 10px;
+    margin:10px;
+    width: 70%;
+    background-color:white;
+    color: black;
+    border: none;
+    outline:none;
+    border-radius: 12px;
+    border:2px solid black;
+  }
+
+  input::placeholder{
+    color: black;
+  }
+
+   textarea{
+  padding: 10px;
+  margin: 10px;     
+  width: 70%;
+  background-color:white;
+  color:black;
+  border: none;
+  outline:none;
+  border-radius: 20px;
+  border:2px solid black;
+ }
+ textarea::placeholder{
+   color:black;
+ }
+ 
+  
+
+  .submit{
+  width: 40%;
+  background-color:black;
+  padding: 4px;
+  outline: none;
+   /* border: 1px solid #fff;
+  color: #fff; */
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 33px;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-left: 3%;
+  border:2px solid white;
+  color: white;
+  border-radius: 8px;
+ }
+
+ .submit:hover{
+       border: 1px solid black;
+  color: white;
+  cursor: pointer;
+  background-color:rgb(21, 2, 51);
+ }
+
+    /* media queries */
+@media (max-width: 768px){
+
+#contact-section .contact-form{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #contact-section .submit{
+
+    width: 60%;
+  }
+
+}
+
