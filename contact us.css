@@ -24,3 +24,13 @@ body{
     padding-bottom: 2%;
     
   }
+  #contact-section .container h2{
+    text-align: center;
+     text-decoration: underline;
+      /* text-decoration-color:red; */
+      text-underline-position: under;
+      color: rgb(238, 235, 235);
+      letter-spacing: 2px;
+      
+      
+  }
