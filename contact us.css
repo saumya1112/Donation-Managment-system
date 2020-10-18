@@ -43,3 +43,18 @@ body{
      color: #fff;
      letter-spacing:3px;
   }
+  contact-form i.fa{
+    /* color: red; */
+    /* color: #fff; */
+    font-size: 22px; 
+    padding: 3%;
+    background-color: none;
+    border-radius: 80%;
+    margin: 2%;
+    /* border: 2px solid #fff; */
+    cursor: pointer;
+    border:2px solid rgb(190, 190, 190);
+    color: rgb(190, 190, 190);
+    
+  }
+  
