@@ -57,4 +57,23 @@ body{
     color: rgb(190, 190, 190);
     
   }
-  
+  .contact-form i.fa:hover{
+    cursor: pointer;
+    border:2px solid white;
+    color: white;
+  }
+  .inputa:focus{
+      box-shadow: 0 0 10px 4px skyblue;
+  }
+  .h2a{
+    
+      font-size: 35px;
+      margin-top: 10px;
+  }
+  p{
+    
+      margin-bottom: 0px;
+  }
+  .hr1{
+      margin-top: 0px;
+  }
