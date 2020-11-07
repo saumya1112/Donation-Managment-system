@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin_dashboard</title>
+
+    <!-- ----------link to css file------------- -->
+    <link rel="stylesheet" href="myaccount.css">
+
+    <!-- -----------fontawsm cdn------------- -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container">
+
+        <!-- -----------Top Navbar----------- -->
+        <nav class="navbar">
+            <div class="nav_icon" onclick='toggleSlider()'>
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="navbar_left">
+                <a href="#status">Current Status</a>
+                <a href="#report">My Reports</a>
+            </div>
+        </nav>
+
+
+
+
+        <!-- ------------Main Container---------------- -->
+        <main>
+
+        </main>
+        
+
+
+        
+
+        <!-- ------------Side navbar----------------- -->
+        <div id="sidebar">
+            <div class="sidebar_title">
+                <i class="fa fa-times" id="sidebarIcon" onclick="closeSidebar"></i>
+            </div>
+
+
+            <div class="sidebar_menu">
+                <div class="sidebar_link active_menu_link">
+                    <i class="fa fa-home"></i>
+                    <a href="#">Dashboard</a>
+                </div>
+                <div class="sidebar_link">
+                    <i class="fa fa-user-secret"></i>
+                    <a href="About.html">About Us</a>
+                </div>
+                <div class="sidebar_link">
+                    <i class="fa fa-calendar-check-o"></i>
+                    <a href="docharity.html">Forms</a>
+                </div>
+                <div class="sidebar_link">
+                    <i class="fa fa-files-o"></i>
+                    <a href="contact us.html">Feedback</a>
+                </div>
+
+                <h2>Situations</h2>
+                <div class="sidebar_link">
+                    <i class="fa fa-building-o"></i>
+                    <a href="#">Organization</a>
+                </div>
+                <div class="sidebar_link">
+                    <i class="fa fa-archive"></i>
+                    <a href="#">Emergency</a>
+                </div>
+                <div class="sidebar_link">
+                    <i class="fa fa-sign-out"></i>
+                    <a href="#">Individual</a>
+                </div>
+
+                <h2>Payroll</h2>
+                <div class="sidebar_link">
+                    <i class="fa fa-briefcase"></i>
+                    <a href="#">Transections</a>
+                </div>
+
+                <div class="sidebar_back">
+                    <i class="fa fa-backward"></i>
+                    <a href="Home page.html">Go Back</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
