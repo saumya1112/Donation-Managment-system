@@ -217,5 +217,29 @@
         </div>
     </div>
 
+
+
+    <!-- -------------------Add js for toggle---------------- -->
+    <script>
+        var sidebarOpen = false;
+        var sidebar =document.getElementById("sidebar");
+        var sidebarCloseIcon = document.getElementById("sidebarIcon");
+
+        function togggleSidebar(){
+            if(!sidebarOpen){
+                sidebar.classList.add('sidebar_responsive');
+                sidebarOpen = true;
+            }
+        }
+
+        function closeSidebar(){
+            if(!sidebarOpen){
+                sidebar.classList.add('sidebar_responsive');
+                sidebarOpen = false;
+            }
+        }
+    </script>
+    
+
 </body>
 </html>
