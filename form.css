@@ -145,7 +145,7 @@ input[type=submit]:hover {
 
 /*second breakpoint*/
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 401px) {
     .column {
         float: left;
       
