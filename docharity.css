@@ -125,7 +125,7 @@ html{
     .blog-post{
         max-width: 55rem;
     }
-    blog-post-img{
+    .blog-post-img{
         min-width: 30rem;
         max-width: 30rem;
     }

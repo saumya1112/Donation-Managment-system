@@ -4,446 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <style>
-         body{
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .header-img{
-            background: url('../Donation-Managment-system/assets/images/about-header.jpg');
-            height: 70vh;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            width: 100%;
-        }
-
-        .header-txt{
-            position: absolute;
-            top: 0%;
-            left: 0%;
-            transform: translate(-0%, -0%);
-            padding: 20px;
-            background: black;
-            height: 64vh;
-            width: 97%;
-            opacity: 0.6;
-        }
-
-        .header-txt h1{
-            font-size: 60px;
-            letter-spacing: 2px;
-            margin: 30px 0px 0px 40px;
-            color: white;
-            opacity: 1;
-        }
-
-        .header-txt h3{
-            font-size: 29px;
-            word-spacing: 2px;
-            margin: 18px 0px 0px 40px;
-            color: white;
-            opacity: 1;
-        }
-
-        .header-txt p{
-            color: white;
-            opacity: 1;
-            font-size: 18px;
-            text-align: justify;
-            margin: 20px 420px 55px 40px;
-        }
-
-        .header-txt a:first-of-type{
-            margin: 35px 20px 25px 40px;
-        }
-
-        .header-txt a{
-            text-decoration: none;
-            font-size: 18px;
-            color: white;
-            border: 3px solid orangered;
-            padding: 10px;
-            border-radius: 15px;
-        }
-
-        .header-txt a:hover{
-            background-color: orangered;
-        }
-
-        .about-us{
-            margin: 40px 100px;
-            text-align: justify;
-        }
-
-        .about-us h1{
-            text-align: center;
-            letter-spacing: 2px;
-            word-spacing: 3px;
-        }
-
-        .about-us hr:first-of-type{
-            margin-left: 150px;
-            height: 2px;
-            background-color: grey;
-            border: 1px solid black;
-        }
-
-        .about-us hr:last-of-type{
-            margin-right: 150px;
-            height: 2px;
-            background-color: grey;
-            border: 1px solid black;
-        }
-
-        .service-img{
-            background: url('../Donation-Managment-system/assets/images/about-service.jpg');
-            height: 100vh;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            width: 100%;
-            opacity: 0.7;
-        }
-
-        .service-txt{
-            position: absolute;
-            top: 120%;
-            left: 0%;
-            transform: translate(-0%, -15%);
-            padding: 20px;
-            height: 54vh;
-            width: 97%;
-        }
-
-        .service-txt h1{
-            margin-left: 20px;
-            margin-right: 850px;
-            padding: 10px;
-            font-size: 35px; 
-            background-color: black;
-            opacity: 0.8;
-            color: white;
-        }
-
-        .service-txt .box{
-            float: left;
-            width: 380px;
-            margin-left: 20px;
-            margin-right: 30px;
-            background-color: white;
-        }
-
-        .service-txt .box img{
-            height: 250px;
-            width: 100%;
-        }
-
-        .service-txt .box h2{
-            margin-left: 10px;
-        }
-
-        .service-txt .box p{
-            margin: 10px;
-            text-align: justify;
-        }
-
-        .service-txt .box a{
-            text-decoration: none;
-            float: right;
-            color: black;
-            border: 2px solid black;
-            padding: 8px;
-            margin: 10px;
-            font-weight: bold;
-        }
-
-        .service-txt .box a:hover{
-            border-radius: 10px;
-            background-color: skyblue;
-        }
-
-        .team h1{
-            text-align: center;
-            font-size: 35px;
-            word-spacing: 2px;
-            font-style: italic;
-        }
-
-        .team .circle{
-            width: 100%;
-            margin-top: 20px;
-        }
-
-        .team .circle img{
-            border-radius: 50%;
-            height: 225px;
-            width: 225px;
-            float: left;
-            padding: 18px;
-            box-shadow: 5px 5px #888888;
-        }
-
-        .team .circle:hover img {
-            opacity: 1;
-            -webkit-animation: flash 1.5s;
-            animation: flash 1.5s;
-        }
-
-        @-webkit-keyframes flash {
-            0% {
-                opacity: .4;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-
-        @keyframes flash {
-            0% {
-                opacity: .4;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-
-        .team .box-1{
-            float: left;
-            width: 210px;
-            height: 200px;
-            padding: 10px;
-            background-color: black;
-            color: white;
-            border-radius: 15px;
-            margin: 5px 0px 40px 28px;
-        }
-
-        .team .box-1:hover{
-            background-color: black;
-            opacity: 0.7;
-            padding: 20px;
-        }
-
-        .team .box-1 h3{
-            text-align: center;
-            text-decoration: underline;
-            font-style: italic;
-        }
-
-        .team .box-1 p{
-            text-align: justify;
-        }
-
-        /* Breakpoint for larger laptop screen */
-        @media(min-width: 1440px){
-            .service-txt{
-                top:124%;
-                /* top: 800px; */
-            }
-
-            .service-txt .box{
-                margin-left: 40px;
-                margin-right: 40px;
-            }
-
-            .team .box-1{
-                width: 212px;
-                margin-left: 30px;
-                margin-right: 20px;
-            }
-
-            .team .circle{
-                margin-left: 30px;
-                margin-right: 20px;
-            }
-
-            .tema .circle:last-of-type{
-                margin-left: 40px;
-                margin-right: 30px;
-            }
-    }
-
-    /* Breakpoint for Tablet Screen */
-    @media(max-width: 768px) {
-        .header-img{
-            width: 105%;
-        }
-
-        .header-txt{
-            height: 63vh;
-            width: 100%;
-        }
-
-        .header-txt h1{
-            font-size: 58px;
-            margin: 30px 0px 0px 20px;
-        }
-
-        .header-txt h3{
-            font-size: 27px;
-            margin: 0px 0px 0px 20px;
-        }
-
-        .header-txt p{
-            margin: 10px 350px 55px 20px;
-        }
-
-        .header-txt a:first-of-type{
-            margin: 35px 20px 25px 20px;
-        }
-
-        .header-txt a{
-            font-size: 17px;
-        }
-
-        .service-img{
-            height: 275vh;
-            width: 105%;
-        }
-
-        .service-txt{
-            top: 140%;
-            width: 70%;
-        }
-
-        .service-txt h1{
-            margin-right: 50px;
-        }
-
-        .service-txt .box{
-            width: 500px;
-            margin: 0px 150px 20px 130px;
-        }
-
-        .team .circle{
-            width: 105%;
-        }
-
-        .team .roshni{
-            margin-left: 130px;
-            margin-top: 520px;
-        }
-
-        .team .boxes{
-            position: absolute;
-            top: 470%;
-            left: 0%;
-            transform: translate(-0%, -0%);
-            width: 105%;
-        }
-
-        .team .boxes .roshni-b{
-            margin-top: 239px;
-            margin-left: 140px;
-        }
-
-        .team .boxes .neeti-b{
-            margin-top: 239px;
-            margin-left: 60px;
-        }
-    }
-
-     /* Breakpoint for Tablet Screen */
-     @media(max-width: 375px) {
-        .header-img{
-            width: 110%;
-            height: 75vh;
-        }
-
-        .header-txt{
-            height: 68vh;
-            width: 100%;
-        }
-
-        .header-txt h1{
-            font-size: 58px;
-            margin: 20px 0px 0px 0px;
-        }
-
-        .header-txt h3{
-            font-size: 27px;
-            margin: 0px 0px 0px 0px;
-        }
-
-        .header-txt p{
-            margin: 10px 150px 35px 0px;
-        }
-
-        .header-txt a:first-of-type{
-            margin: 35px 10px 25px 0px;
-        }
-
-        .about-us{
-            margin: 40px 0px 30px 30px;
-        }
-
-        .about-us hr:first-of-type{
-            margin-left: 60px;
-        }
-
-        .about-us hr:last-of-type{
-            margin-right: 60px;
-        }
-
-        .service-img{
-            height: 288vh;
-            width: 110%;
-        }
-
-        .service-txt{
-            top: 168%;
-        }
-
-        .service-txt h1{
-            margin-right: 0px;
-            margin-left: 0px;
-            width: 300px;
-            font-size: 25px; 
-        }
-
-        .service-txt .box{
-            width: 330px;
-            margin: 0px 50px 20px 30px;
-        }
-
-        .team .circle{
-            width: 110%;
-            margin: 10px 0px 0px 80px;
-        }
-
-        .team .unnati{
-            margin-top: 520px;
-        }
-
-        .team .nandinee{
-            margin-top: 1020px;
-        }
-
-        .team .roshni{
-            margin-top: 1515px;
-        }
-
-        .team .neeti{
-            margin-top: 2016px;
-        }
-
-        .team .boxes{
-            top: 511%;
-            width: 110%;
-            margin-left: 70px;
-        }
-
-        .team .boxes .phn-b{
-            margin-top: 238px;
-            margin-left: 30px;
-        }
-    }
-    </style>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Icon css link -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--  css file --> 
+    <link rel="stylesheet" href="Header-footer.css">    
 </head>
 <body>
+    <div class="header">
+        <!-- Logo -->
+        <nav id="logo"><a class="navbar-brand" href="#"><img src="assets/images/logo.jpeg"> Find Fortune</a></nav>
+        <!-- Logo-->
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-btn">
+            <i class="fa fa-bars" ></i>
+        </label>
+        <form action="">
+        <ul class="menu">
+            <!-- Links -->
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="faq_page.html">FAQ</a></li>
+            <li class = "dropdown"><a href="docharity.html">Do Charity<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul class="submenu">
+                    <li> <a href="docharity.html#individual">Individual</a></li>
+                    <li><a href="docharity.html#emergency">Emergency</a></li>
+                    <li><a href="docharity.html#organization">Organization</a></li>
+                </ul>
+            </li>
+            <li><a href="#">My Account</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+            <li>
+                    <!------logout button ------>
+                    <a href="Home page.php?logout='1'"> 
+                    <input type="submit" value = "Log out" name = "logout" class = "logout"></a>
+            </li>
+           <label for="chk" class="hide-btn">
+               <i class="fa fa-times" ></i>
+           </label>
+       </ul>
+       </form>
+    </div>
+    
+    <br><br><br><br><br>
+
     <div class="header-img"></div>
     <div class="header-txt">
         <h1>Donate</h1>
@@ -482,7 +86,7 @@
             <a href="#">Read More</a>
         </div>
     </div>
-
+    <br>
     <div class="team">
         <h1>Our Team</h1>
         <!-- <div class="circles"> -->
@@ -495,10 +99,74 @@
         <div class="boxes">
             <div class="box-1"><h3>Saumya Gupta</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
             <div class="box-1 phn-b"><h3>Unnati Goyal</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
-            <div class="box-1 phn-b"><h3>Nandinee Gupta</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
+            <div class="box-1 phn-b"><h3>Nandinee Gupta</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde dolorum.</p></div>
             <div class="box-1 roshni-b phn-b"><h3>Roshni Rawat</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
             <div class="box-1 neeti-b phn-b"><h3>Neeti Jain</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                 <!-- Grid row -->
+                 <div class="row">
+                    <!-- Grid column1 -->
+                   <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+                       <h3>Find Fortune</h3>
+                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error incidunt voluptates possimus vero aut est!</p> 
+                                    
+                   </div>
+                    <!-- Grid column1 -->
+
+                     <!-- Grid column2 -->
+                     <div class="col-md-3 col-sm-6 col-xs-12 segment-two ">
+                        <!-- Links -->
+                       <h2>Useful  Link</h2>
+                      <ul>
+                          <li><a href="">Event</a></li>
+                          <li><a href="">Event</a></li>
+                          <li><a href="">Event</a></li>
+                          <li><a href="">Event</a></li>
+                          <li><a href="">Event</a></li>
+                      </ul>
+                                    
+                   </div>
+                    <!-- Grid column2 -->
+
+                     <!-- Grid column3 -->
+                     <div class="col-md-3 col-sm-6 col-xs-12 segment-three ">
+                        <h2>Follow Us</h2>
+                        <!-- Links -->
+                        <p>Please Follow us on our Social Media Profile In order to keep updated.</p>
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                    <!-- Grid column3 -->
+
+                     <!-- Grid column 4-->
+                     <div class="col-md-3 col-sm-6 col-xs-12 segment-four ">
+                        <h2>Our Newsletter</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt quam id adipisci assumenda quasi ad.</p>
+                         <!-- Form -->
+                         <form action="">
+                            <input type="email">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                     <!-- Grid column 4-->
+
+                </div>
+                <!-- Grid row -->
+                </div>
+        </div>
+         <!-- Copyright -->
+         <p class="footer-bottom-text">All Right reserved by &copy;Find Fortune.2020</p>
+         <!-- Copyright -->
+    </footer>
+    <!-- End Footer -->
 </body>
 </html>
