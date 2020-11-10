@@ -1,3 +1,4 @@
+<?php include 'server.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -125,34 +126,34 @@
                         <i class="fa fa-user-circle-o"></i> Sign in
                     </h4>
 
-                    <form class="form-box px-3">
-
+                    <form class="form-box px-3" method="post" action="signup_form.php">
+                    <?php include('errors.php'); ?>
                         <!-------- username ---------->
                         <div class="form-input">
                             <!-- fontawsm icon for username -->
                             <span><i class="fa fa-user"></i></span>
-                            <input type="text" name="" placeholder="Username" required>
+                            <input type="text" name="username" placeholder="Username" required>
                         </div>
 
                         <!-----------email------------>
                         <div class="form-input">
                             <!-- fontawsm icon for email -->
                             <span><i class="fa fa-envelope"></i></span>
-                            <input type="email" name="" placeholder="Email Address" tabindex="10" required>
+                            <input type="email" name="email" placeholder="Email Address" tabindex="10" required>
                         </div>
 
                         <!--------- password ---------->
                         <div class="form-input">
                             <!-- fontawsm icon for password -->
                             <span><i class="fa fa-lock"></i></span>
-                            <input type="password" name="" placeholder="Password" required>
+                            <input type="password" name="password_1" placeholder="Password" required>
                         </div>
 
-                        <!------- Conferrm password ----->
+                        <!------- Confirm password ----->
                         <div class="form-input">
                             <!-- fontawsm icon for password -->
                             <span><i class="fa fa-lock"></i></span>
-                            <input type="password" name="" placeholder="Type Password again" required>
+                            <input type="password" name="password_2" placeholder="Type Password again" required>
                         </div>
 
                         <div class="mb-3">
@@ -167,7 +168,7 @@
 
                         <div class="mb-3">
                             <!------submit button ------>
-                            <button type="submit" class="btn btn-block text-uppercase">
+                            <button type="submit" class="btn btn-block text-uppercase" name= "reg_user">
                                 Sign in
                             </button>
                         </div>
