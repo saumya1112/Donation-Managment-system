@@ -278,8 +278,8 @@ h2{
 .footer{
   
     background: #111;
-    /* padding: 30px 0; */
-    margin: 560px 0 0 0;
+    padding: 30px 0;
+    /* margin: 560px 0 0 0; */
     padding-bottom: 30px;
     position: sticky;
     bottom: 0;

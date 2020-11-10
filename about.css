@@ -242,6 +242,10 @@ body{
     text-align: justify;
 }
 
+.footer{
+    padding: 0;
+    margin: 560px 0 0 0;
+}
 /* Breakpoint for larger laptop screen */
 @media(min-width: 1440px){
     .header-img{
