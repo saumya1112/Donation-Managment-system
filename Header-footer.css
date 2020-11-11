@@ -18,7 +18,7 @@
   
 }
 .navbar-brand{
-    position: absolute;
+    position: fixed;
    
 }
 #logo a{
@@ -34,10 +34,15 @@
 .header{
     width:100%;
     height: 100px;
-    background-color:rgb(34, 34, 34);
+    background-color:black;
+    
     padding: 0 20px ;
+   
+ 
     position: fixed;
     font-family: Poppins;
+    z-index: 4;
+   
    
 }
 .header h2{
@@ -66,9 +71,58 @@
 }
 .menu li a:hover,.show-btn:hover,.hide-btn:hover{
     color: grey;
-
-
 }
+
+.menu li a{
+    font-size: 18px;
+    padding:0px 15px ;
+    position: relative;
+}
+
+li .logout{
+    background:none; 
+    outline:none; 
+    color: white;
+    font-size: 20px; 
+    text-transform: uppercase; 
+    transition: .4s;
+    border:none ;
+}
+
+li .logout:hover{
+    color: grey;
+}
+
+.menu .dropdown .submenu{
+    position: absolute;
+    background-color:black;
+    width: 180px;
+    height: 280px;
+    display: none;
+    z-index: 4;
+    color: white;
+    font-size: 18px;
+    padding:0px 15px ;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.menu .dropdown li{
+    line-height: 20px;
+}
+
+.dropdown .submenu li:hover{
+    color: grey;
+}
+
+.dropdown i{
+    margin-left:5px;
+}
+
+.dropdown:hover .submenu{
+    display: block;
+}
+
 .show-btn,.hide-btn{
     font-size: 30px;
     color: white;
@@ -222,10 +276,12 @@ h2{
     font-size: 18px;
 }
 .footer{
-    top: 100vh;
+  
     background: #111;
-    padding:30px 0;
-    position: relative;
+    padding: 30px 0;
+    /* margin: 560px 0 0 0; */
+    padding-bottom: 30px;
+    position: sticky;
     bottom: 0;
     width: 100%;
     
@@ -324,7 +380,7 @@ h2{
     background: #000;
     line-height: 75px;
     bottom: 0;
-    position: relative;
+    position: sticky;
     top: 100vh;
     padding-bottom: 0px;
     margin-bottom: 0px;

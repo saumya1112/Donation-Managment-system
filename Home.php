@@ -3,19 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-     <!-- Icon css link -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-     <!--  css file --> 
-     <link rel="stylesheet" type="text/css" href="Header-footer.css">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Icon css link -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--  css file --> 
+    <link rel="stylesheet" href="Header-footer.css">    
 </head>
 <body>
-    
-    <!-- ======= Header ======= -->
-    <!-- Header -->
-
     <div class="header">
         <!-- Logo -->
         <nav id="logo"><a class="navbar-brand" href="#"><img src="assets/images/logo.jpeg"> Find Fortune</a></nav>
@@ -24,25 +20,37 @@
         <label for="chk" class="show-btn">
             <i class="fa fa-bars" ></i>
         </label>
+        <form action="">
         <ul class="menu">
             <!-- Links -->
-
-           <li><a href="#">About Page</a></li>
-           <li><a href="signup_form.html">Signup</a></li>
-           <li><a href="login_form.html">Login</a></li>
-           <li><a href="#">FAQ</a></li>
-           <li><a href="#">Contact Us</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="faq_page.html">FAQ</a></li>
+            <li class = "dropdown"><a href="docharity.html">Do Charity<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul class="submenu">
+                    <li> <a href="docharity.html#individual">Individual</a></li>
+                    <li><a href="docharity.html#emergency">Emergency</a></li>
+                    <li><a href="docharity.html#organization">Organization</a></li>
+                </ul>
+            </li>
+            <li><a href="#">My Account</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+            <li>
+                    <!------logout button ------>
+                    <a href="Home page.php?logout='1'"> 
+                    <input type="submit" value = "Log out" name = "logout" class = "logout"></a>
+            </li>
            <label for="chk" class="hide-btn">
                <i class="fa fa-times" ></i>
            </label>
        </ul>
-       
+       </form>
     </div>
-    <!-- End Header -->
+    
+    <br><br><br><br><br>
 
-     <!-- ======= Footer ======= -->
-    <!-- Footer -->
-    <footer>
+
+   <!-- Footer -->
+   <footer>
         <div class="footer">
             <div class="container">
                  <!-- Grid row -->

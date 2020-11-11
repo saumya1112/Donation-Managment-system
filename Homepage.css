@@ -1,0 +1,182 @@
+/*--------------------------------------------------------------
+# About us
+--------------------------------------------------------------*/
+
+  
+ 
+  
+/*--------------------------------------------------------------
+# News
+--------------------------------------------------------------*/
+#news-section{
+    padding: 70px 0px;
+    background-color: #fff;
+  }
+  .news-title{
+    padding-bottom: 0px;
+  }
+  
+  .news-title h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+   
+    color:white;
+    background-color: rgb(124, 123, 123);
+  }
+  
+  .news-title h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 58px;
+  padding-top: 18px;
+    color: black;
+  }
+  #news-section .container{
+    margin-top: 40px;
+  }
+  
+  #news-section img{
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    /* z-index: -1; */
+    border-radius: 10px;
+    object-fit: cover;  
+    object-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+  .flip-card {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 00px;
+    margin: 0px;
+    margin-bottom: 0px;
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid #f1f1f1; */
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    margin-top: 30px;
+    border-radius: 10px;
+    /* border: 1px solid #f1f1f1; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-back button{
+    background: #FEAA71;
+    color: white;
+    transition: transform .2s; /* Animation */
+  }
+  .flip-card-back button:hover{
+    color: #FEAA71;
+    background: rgb(0, 0, 0, 0.8);
+    transform: scale(1.1);
+  }
+  
+  .flip-content{
+    /* box-shadow: 0 0 10px #fdfdfd; */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+    background-color:rgb(214, 209, 209);
+    border: 1px solid black;
+  }
+  
+  
+  .flip-content h4{
+    margin-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #F7EB70;
+    font-weight: bold;
+  }
+  
+  .flip-content p{
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+  }
+  
+  .flip-content .flip-content-a{
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  
+  .flip-content a{
+    display:inline-block;
+    width: 150px;
+    text-decoration: none !important;
+    line-height: 2.5em;
+    border-radius: 10px;
+    /* text-align: center; */
+    border-width: 0;
+    background: #543864;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+  
+  .flip-content a:hover{
+    text-decoration: none;
+    background: #ffcef3;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    transition: 0.5s;
+  }  
+
+  

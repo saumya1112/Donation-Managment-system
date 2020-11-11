@@ -1,0 +1,312 @@
+/* ------------import google fonts---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.text-primary-p{
+    color: #a5aaad;
+    font-size: 14px;
+    font-weight: 700;
+}
+.font-bold{
+    font-weight: 700;
+}
+.text-title{
+    color: #2e4a66;
+}
+.text-red{
+    color: #cc3d38;
+}
+.text-yellow{
+    color: #a98921;
+}
+.text-green{
+    color:#3b9668 ;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.8fr 1 fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas: "sidebar nav nav nav" "sidebar main main main";
+}
+
+
+
+/* --------------------Top Navbar-------------------- */
+.navbar{
+    background: #ffffff;
+    grid-area: nav;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    border-bottom: 1px solid lightgray;
+}
+.nav_icon{
+    display: none;
+}
+.nav_icon > i{
+    font-size: 26px;
+    color: #a5aaad;
+}
+.navbar_left > a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #a5aaad;
+    font-size: 15px;
+    font-weight: 700; 
+}
+.navbar_left .active_link{
+    color: #265acc;
+    border-bottom: 3px solid #265acc;
+    padding-bottom: 12px;
+}
+.navbar_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_right >a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+.navbar_right > a > i{
+     color: #a5aaad;
+     font-size: 16px;
+     border-radius: 50px;
+     background: #ffffff;
+     box-shadow: 2px 2px 5px #d9d9d9 ,-2px -2px 5px #ffffff;
+}
+
+
+
+main{
+    background: #f3f4f6;
+    grid-area: main;
+    overflow: scroll;
+}
+.main_container{
+    padding: 20px 50px;
+}
+.main_title{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.main_title > img {
+    max-height: 120px;
+    object-fit: contain;
+    margin-right: 25px;
+}
+.main_greeting > h1{
+    font-size: 28px;
+    color: #2e4a66;
+    margin-bottom: 5px;
+}
+.main_greeting > p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #a5aaad;
+}
+.top_headings{
+    color: gray;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+}
+
+
+.main_cards{
+    display: grid;
+    grid-template-columns: 1.3fr 1.3fr 1.3fr ;
+    gap: 30px;
+    margin: 20px 0;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: 5px 5px 13px #ededed , -5px -5px  13px #ffffff ;
+}
+.card_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card_inner p{
+    font-size: 20px;
+}
+.card_inner > span{
+    font-size: 25px;
+}
+
+
+
+
+/* -------------Side Navbar------------------ */
+#sidebar{
+    background: #020509;
+    grid-area: sidebar;
+    overflow-y: auto;
+    padding: 20px;
+    -webkit-transition: all 0.5s;
+    transition: all .5s;
+}
+.sidebar_title > i{
+    font-size: 18px;
+    display: none;
+}
+.sidebar_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f3f4f6;
+    margin-bottom:50px;
+}
+.sidebar_menu > h2{
+    color: #3ea175;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 0 10px;
+    font-weight: 700;
+}
+.sidebar_link{
+    color: #f3f4f6;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.active_menu_link{
+    background: rgba(62, 161, 117, .3);
+    color: #3ea175;
+    width: 80%;
+}
+.active_menu_link a{
+    color: #3ea175 !important;
+}
+.sidebar_link > a{
+    text-decoration: none;
+    color: #a5aaad;
+    font-weight: 700;
+}
+.sidebar_link > i{
+    margin-right: 10px;
+    font-size: 18px;
+}
+.sidebar_back{
+    margin-top: 20px;
+    padding: 10px;
+    color: #377fc2;
+}
+.sidebar_back > a{
+    text-decoration: none;
+    color: #377fc2;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.sidebar_back > i{
+    margin-right: 10px;
+    font-size: 18px;
+}
+.sidebar_responsive{
+    display: inline !important;
+    z-index: 9999 !important;
+    left: 0 !important;
+    position: absolute;
+}
+
+
+
+/* ---------------My Reprt Table------------ */
+table,tr,td,th
+{
+    border-spacing: 0px;
+    line-height: 70px;
+}
+td{
+    border-bottom: 1px solid #7f8c8d;
+}
+table
+{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 13px #ededed , -5px -5px  13px #ffffff ;
+    border-radius: 2px;
+}
+tbody tr:hover
+{
+    background-color: #d6d6d68a;
+}
+tr:first-child th
+{
+    background-color: #d6d6d68a;
+    color: #2e4a66;
+    text-align: center;
+    font-weight: 300;
+    font-size: 22px;
+    font-weight: normal;
+    border-bottom: 1px solid gray;
+}
+tbody tr{
+    text-align: center;
+    font-size: 19px;
+    color: gray;
+}
+
+
+
+
+/* ---------------Apply Mediaquery------------- */
+@media only screen and (max-width:978px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 3fr;
+        grid-template-areas: "nav" "main";
+    }
+    #sidebar{
+        display: none;
+    }
+    .sidebar_title > i{
+        display: inline;
+    }
+    .nav_icon{
+        display: inline;
+    }
+    
+}
+
+@media only screen and (max-width:855px) {
+    .main_cards{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+    
+}
+
+@media only screen and (max-width:480px){
+    .navbar_left{
+        display: none;
+    }
+    
+}
