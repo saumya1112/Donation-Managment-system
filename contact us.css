@@ -5,12 +5,12 @@ body{
 
  }   
 
-
 .container{
     width: 90%;
     margin: auto;
     overflow: hidden;
   }
+
   /* contact form css */
 
 
@@ -66,12 +66,14 @@ body{
       box-shadow: 0 0 10px 4px skyblue;
   }
   .h2a{
-    
-      font-size: 35px;
-      margin-top: 10px;
+      font-size: 40px;
+      margin-top: 20px;
+      margin-bottom: 25px;
+      text-shadow: 2px 2px 0px #636262, 5px 4px 0px rgba(0,0,0,0.15);
   }
   p{
-    
+      font-size: 20px;
+      font-weight: bold;
       margin-bottom: 0px;
   }
   .hr1{
@@ -87,6 +89,10 @@ body{
     font-style: italic;
     color: white;
     letter-spacing: 2px;
+  }
+  .icon-info{
+    text-decoration: none !important;
+    color: white;
   }
   input{
     padding: 10px;
@@ -124,17 +130,14 @@ body{
   .submit{
   width: 40%;
   background-color:black;
-  padding: 4px;
+  padding: 5px;
   outline: none;
-   /* border: 1px solid #fff;
-  color: #fff; */
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 2px;
   height: 33px;
   text-align: center;
   cursor: pointer;
-  letter-spacing: 2px;
   margin-left: 3%;
   border:2px solid white;
   color: white;
@@ -142,10 +145,10 @@ body{
  }
 
  .submit:hover{
-       border: 1px solid black;
-  color: white;
-  cursor: pointer;
-  background-color:rgb(21, 2, 51);
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    opacity: .8;
  }
 
     /* media queries */
@@ -160,5 +163,6 @@ body{
 
     width: 60%;
   }
+  
 }
 
