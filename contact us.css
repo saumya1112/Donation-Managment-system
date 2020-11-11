@@ -1,0 +1,168 @@
+body{
+  padding: 0px;
+  margin: 0px;  
+  font-family: sans-serif;
+
+ }   
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  /* contact form css */
+
+
+  #contact-section{
+    background-image: url(https://www.five9.com/media_library/2017/02/form-background.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100% ;
+    padding-bottom: 2%;
+    
+  }
+  #contact-section .container h2{
+    text-align: center;
+     text-decoration: underline;
+      /* text-decoration-color:red; */
+      text-underline-position: under;
+      color: rgb(238, 235, 235);
+      letter-spacing: 2px;
+      
+      
+  }
+  #contact-section .container p{
+    text-align: center; 
+    width: 70%; 
+    margin-left: auto;
+     margin-right: auto; 
+     padding-bottom: 3%;
+     color: #fff;
+     letter-spacing:3px;
+  }
+  .contact-form i.fa{
+    /* color: red; */
+    /* color: #fff; */
+    font-size: 22px; 
+    padding: 3%;
+    background-color: none;
+    border-radius: 80%;
+    margin: 2%;
+    /* border: 2px solid #fff; */
+    cursor: pointer;
+    border:2px solid rgb(190, 190, 190);
+    color: rgb(190, 190, 190);
+    
+  }
+  .contact-form i.fa:hover{
+    cursor: pointer;
+    border:2px solid white;
+    color: white;
+  }
+  .inputa:focus{
+      box-shadow: 0 0 10px 4px skyblue;
+  }
+  .h2a{
+      font-size: 40px;
+      margin-top: 20px;
+      margin-bottom: 25px;
+      text-shadow: 2px 2px 0px #636262, 5px 4px 0px rgba(0,0,0,0.15);
+  }
+  p{
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 0px;
+  }
+  .hr1{
+      margin-top: 0px;
+  }
+  .contact-form{
+    display: grid;
+    grid-template-columns: auto auto;
+     }
+  
+  .form-info{
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+    letter-spacing: 2px;
+  }
+  .icon-info{
+    text-decoration: none !important;
+    color: white;
+  }
+  input{
+    padding: 10px;
+    margin:10px;
+    width: 70%;
+    background-color:white;
+    color: black;
+    border: none;
+    outline:none;
+    border-radius: 12px;
+    border:2px solid black;
+  }
+
+  input::placeholder{
+    color: black;
+  }
+
+   textarea{
+  padding: 10px;
+  margin: 10px;     
+  width: 70%;
+  background-color:white;
+  color:black;
+  border: none;
+  outline:none;
+  border-radius: 20px;
+  border:2px solid black;
+ }
+ textarea::placeholder{
+   color:black;
+ }
+ 
+  
+
+  .submit{
+  width: 40%;
+  background-color:black;
+  padding: 5px;
+  outline: none;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 33px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 3%;
+  border:2px solid white;
+  color: white;
+  border-radius: 8px;
+ }
+
+ .submit:hover{
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    opacity: .8;
+ }
+
+    /* media queries */
+@media (max-width: 768px){
+
+#contact-section .contact-form{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #contact-section .submit{
+
+    width: 60%;
+  }
+  
+}
+
