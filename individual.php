@@ -7,30 +7,32 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Icon css link -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--  css file --> 
     <link rel="stylesheet" type="text/css" href="form.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
     <div class="row">
         <div class="column" >
-            
+        
             <img src="http://shots.jotform.com/elton/logo_thanksgiving.png" alt />
             <div id="donation"><strong>Donation form</strong></div>
             <div id="make"><strong>Make a donation to support us</strong></div>
         </div>
-        <div class="column1" >
-            <p style="text-align: center;font-family: Brush Script MT;font-weight: bold;margin-bottom: 0px;color: blue;"><span style="font-size: 50px;">Organisation Form</span></p>
+       <div class="column1" >
+            <p style="text-align: center;font-family: Brush Script MT;font-weight: bold;margin-bottom: 0px;color: black;"><span style="font-size: 55px;">Individual Form</span></p>
             <p><span style="font-size: 14pt;">Please fill this form for required details.</span></p>
-            
+        
+    
             <div class="container">
-                <form action="/action_page.php">
+                <form method="POST">
                     <div class="row">
                         <div class="col-25">
                         <label for="fname">Full Name</label>
                         </div>
                         <div class="col-75">
-                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                        <input type="text" id="fname" name="fname" placeholder="Your name.." required>
                         </div>
                     </div>
                     <div class="row">
@@ -46,7 +48,7 @@
                         <label for="Mobile">Mobile no</label>
                         </div>
                         <div class="col-75">
-                        <input type="text" id="mobile" name="mobile" placeholder="Your mobile no" size="10" required>
+                        <input type="number" id="mobile" name="mobileno" placeholder="Your mobile no" size="10" required>
                         </div>
                     </div>
                     <div class="row">
@@ -78,21 +80,22 @@
                         <label for="donation">Donate Thing</label> 
                         </div>
                         <div class="col-75">
-                            <select>
+                            <select name="Donatething">
                                 <option value="Items">Items</option>
                                 <option value="Cloths">Cloths</option>
                                 <option value="books">Books</option>
                                 <option value="money">Money</option>
                                 <option value="shoes">Shoes</option>
+                                <option value="other">Other thing</option>
                             </select>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-25">          
-                            <label for="city">Please specify the thing</label>
+                            <label for="city">Please specify the cloth</label>
                         </div>
                         <div class="col-75">
-                        <input type="text" id="city" name="city" placeholder="shirt" required>
+                        <input type="text" id="thing1" name="thing1" placeholder="shirt" required>
                         </div>
                     </div>
                     <div class="row">
@@ -100,7 +103,7 @@
                             <label for="city">Others,Please specify</label>
                         </div>
                         <div class="col-75">
-                        <input type="text" id="city" name="city" placeholder="any thing">
+                        <input type="text" id="thing2" name="thing2" placeholder="any thing">
                         </div>
                     </div>
                     <div class="row">
@@ -120,7 +123,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Register" name="submit">
                     </div>
                 </form>
             </div>
@@ -130,3 +133,50 @@
 </div>
 </body>
 </html>
+
+
+<?php 
+
+include 'connection.php'; 
+
+if(isset($_POST['submit'])){
+    $name=$_POST['fname'];
+    $email=$_POST['email'];
+    $mobileno=$_POST['mobileno'];
+    $address=$_POST['address'];
+    $city=$_POST['city'];
+    $state=$_POST['state'];
+    $Donatething=$_POST['Donatething'];
+    $thing1=$_POST['thing1'];
+    $thing2=$_POST['thing2'];
+    $amount=$_POST['amount'];
+    $date=$_POST['date'];
+
+
+    $insertquery =" insert into ind(name,email,mobileno,address,city,state,Donatething,thing1,thing2,amount,date) values ('$name','$email','$mobileno','$address','$city','$state','$Donatething','$thing1','$thing2','$amount','$date')";
+
+    $res = mysqli_query($con,$insertquery);
+
+    if($res && $res!=null){
+        ?>
+        <script>
+           swal("Good job!", "You registered succefully!", "success");
+        </script>
+        <?php
+    }else{
+        ?>
+        <script>
+           sweetAlert("Oops...","Not registered succefully! Try again","error");
+        </script>
+        <?php
+
+    }
+
+
+}
+
+
+
+
+
+?>
