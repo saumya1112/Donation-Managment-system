@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docharity Page</title>
-
-    <!-- ------------css file link---------- -->
-    <link rel="stylesheet" href="docharity.css">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Icon css link -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--  css file --> 
-    <link rel="stylesheet" href="Header-footer.css">
+    <link rel="stylesheet" href="Header-footer.css">    
 </head>
 <body>
     <div class="header">
@@ -49,75 +47,10 @@
     </div>
     
     <br><br><br><br><br>
-    
-    <!-- -------------Banner image------------ -->
-    <section class="charity-banner">
-        <div class="charit">
-            <img src="assets/images/docharity-page-images/banner-img.jpg" alt="">
-        </div>
-    </section>
 
 
-    <section class="docharity">
-
-        <!-- ----------------Individual donation--------------------- -->
-        <h1 class="head">Individual</h1>
-        <div class="card1">
-            <div class="blog-post">
-                <div class="blog-post-img">
-                    <img src="assets/images/docharity-page-images/individual-img.jpg" alt="">
-                </div>
-                <div class="blog-post-info">
-                    <h1 class="blog-post-title">Individual</h1>
-                    <p class="blog-post-text">
-                        A single step of yours can change a life of any individual. Come forward and donate for any cause you that you might think is the most crucial sector that needs help. You can either donate your time or your money or anything that can help anyone.
-                    </p>
-                    <a href="#" class="blog-post-button">Donate Now</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- -------------organization donation------------------ -->
-        <br><br><br><br><br>
-        <h1 class="head">Organization</h1>
-        <div class="card2">
-            <div class="blog-post">
-                <div class="blog-post-img">
-                    <img src="assets/images/docharity-page-images/organization-img.jpg" alt="">
-                </div>
-                <div class="blog-post-info">
-                    <h1 class="blog-post-title">Organization</h1>
-                    <p class="blog-post-text">
-                        Be a small helping hand or a little live supporting system for those who are alone in this big world. Donate for organizations who give home to homeless peoples and provide them food, education, health and many other essential items of daily needs to those who can’t afford all these.
-                    </p>
-                    <a href="#" class="blog-post-button">Donate Now</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- -------------emergency donation------------------ -->
-        <br><br><br><br>
-        <h1 class="head">Emergency</h1>
-        <div class="card3">
-            <div class="blog-post">
-                <div class="blog-post-img">
-                    <img src="assets/images/docharity-page-images/emergency-img.jpg" alt="">
-                </div>
-                <div class="blog-post-info">
-                    <h1 class="blog-post-title">Emergency</h1>
-                    <p class="blog-post-text">
-                        Problems are always uninvited, you never know what’s wrong happens with someone in the very next moment. So, it’s always better to be ready for such situations. Let’s donate for those who struck in natural calamities or for those who fight for their lives as well as for ours or for many unexpected problems like that.
-
-                    </p>
-                    <a href="#" class="blog-post-button">Donate Now</a>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-
-    <!-- Footer -->
-    <footer>
+   <!-- Footer -->
+   <footer>
         <div class="footer">
             <div class="container">
                  <!-- Grid row -->
@@ -178,6 +111,5 @@
          <!-- Copyright -->
     </footer>
     <!-- End Footer -->
-
 </body>
 </html>
