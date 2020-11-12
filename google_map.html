@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google map</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background: linear-gradient(90deg, rgb(175, 224, 188) 0%, rgba(103, 165, 194, 0.96) 31%, rgb(145, 209, 170) 100%);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+        }
+        .google_map{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+            margin-top: 100px;
+            min-height: 75vh;
+        }
+        .mapouter{
+            margin: 0px auto;
+            position:relative;
+            text-align:right;
+            height:530px;
+            width:90%;
+        }
+        .gmap_canvas {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow:hidden;
+            height:530px;
+            width:100%;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: -10px 2px 13px -7px #000000, 10px 2px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+        }
+        .gmap_canvas:hover{
+            box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.322);
+        }
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <section class="google_map">
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe src="https://maps.google.com/maps?q=uttar%20pradesh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

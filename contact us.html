@@ -57,25 +57,29 @@
 
                   <!-- First grid -->
                <div>
-                 <i class="fa fa-map-marker"></i><span class="form-info">  GLA University, Mathura </span><br>
-                 <i class="fa fa-phone" > </i><span class="form-info">  9195678475</span><br>
-                 <i class="fa fa-envelope"></i><span class="form-info">  Findfortune@Gmail.com</span>
+                 <a href="google_map.html" class="icon-info"><i class="fa fa-map-marker"></i><span class="form-info">  GLA University, Mathura </span><br></a>
+                 <a href="#"><i class="fa fa-phone" class="icon-info"> </i><span class="form-info">  9195678475</span><br></a>
+                 <a href="#"><i class="fa fa-envelope" class="icon-info"></i><span class="form-info">  findfortune@Gmail.com</span></a>
                </div>
                
                    <!-- second grid -->
            <div>        
-             <form>
-               <input type="text" placeholder="Your Name" required class="inputa">
-               <input type="text" placeholder="Last Name"class="inputa"><br>
-               <input type="Email" placeholder="Email" required class="inputa"><br>
-               <input type="text" placeholder="Subject of this message" class="inputa"><br>
-               <textarea name="message" placeholder="Message" rows="5" required class="inputa"></textarea><br>
+             <form action="connect.php" method="POST">
+               <input type="text" name="yourname" placeholder="Your Name" required class="inputa"><br><br>
+               <input type="text"name="lastname" placeholder="Last Name"class="inputa"><br><br>
+               <input type="Email" name="email" placeholder="Email" required class="inputa"><br><br>
+               <input type="text"name="phone" placeholder="Phone" required class="inputa"><br><br>
+               <input type="text" name="subject"placeholder="Subject of this message" class="inputa"><br><br>
+               <textarea name="message"name="message" placeholder="Message" rows="5" required class="inputa"></textarea><br>
                <button class="submit" >Send Message</button> 
              </form>   
                </div>
              </div>
            </div>
          </section>
+
+
+         
          <!-- Footer -->
     <footer>
       <div class="footer">
@@ -85,7 +89,7 @@
                   <!-- Grid column1 -->
                  <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
                      <h3>Find Fortune</h3>
-                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error incidunt voluptates possimus vero aut est!</p> 
+                     <p>Hope for Children is an international charity working towards a world where every child has a happy childhood that sets them up for a positive future.</p> 
                                   
                  </div>
                   <!-- Grid column1 -->
@@ -120,7 +124,7 @@
                    <!-- Grid column 4-->
                    <div class="col-md-3 col-sm-6 col-xs-12 segment-four ">
                       <h2>Our Newsletter</h2>
-                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt quam id adipisci assumenda quasi ad.</p>
+                      <p>We are helping to change this by delivering education, health, livelihoods and Child Rights projects that benefit thousands of children and families each year.</p>
                        <!-- Form -->
                        <form action="">
                           <input type="email">
