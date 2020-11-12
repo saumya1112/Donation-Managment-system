@@ -1,3 +1,18 @@
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['username'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login_form.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['username']);
+  	header('location: index.html');
+  }
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,7 +65,7 @@
         <li><a href="contact us.php">Contact Us</a></li>
         <li>
           <!------logout button ------>
-          <a href="Home page.php?logout='1'"> 
+          <a href="Home.php?logout='1'"> 
           <input type="submit" value = "Log out" name = "logout" class = "logout"></a>
         </li>
            
