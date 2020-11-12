@@ -1,3 +1,5 @@
+<?php include 'server.php'?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -124,27 +126,28 @@
                         <i class="fa fa-user-circle-o"></i> Login
                     </h4>
 
-                    <form class="form-box px-3">
+                    <form class="form-box px-3" action="login_form.php" method="POST">
+                    <?php include('errors.php'); ?>
 
-                        <!---------email--------->
+                        <!---------username--------->
                         <div class="form-input">
                             <!-- fontawsm icon for email -->
-                            <span><i class="fa fa-envelope"></i></span>
-                            <input type="email" name="" placeholder="Email Address" tabindex="10" required>
+                            <span><i class="fa fa-user"></i></span>
+                            <input type="text" name="username" id="username" placeholder="Username" tabindex="10" required>
                         </div>
 
                         <!-------- password ------->
                         <div class="form-input">
                             <!-- fontawsm icon for password -->
                             <span><i class="fa fa-lock"></i></span>
-                            <input type="password" name="" placeholder="Password" required>
+                            <input type="password" name="password" id="password" placeholder="Password" required>
                         </div>
 
                         <div class="mb-3">
                             <!------- checkbox ------>
                             <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input"  id="cb1" name="">
-                                <label class="custom-control-label" for="cb1">
+                                <input type="checkbox" class="custom-control-input" onchange="IsRememberMe(this)" id="rememberMe" name="">
+                                <label class="custom-control-label" for="rememberMe">
                                     Remember me
                                 </label>
                             </div>
@@ -152,7 +155,7 @@
 
                         <div class="mb-3">
                             <!--------submit button -------->
-                            <button type="submit" class="btn btn-block text-uppercase">
+                            <button type="submit" class="btn btn-block text-uppercase" name="login_user">
                                 Log in
                             </button>
                         </div>
