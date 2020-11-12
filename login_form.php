@@ -12,7 +12,8 @@
 
     <!-- Link of Fontawsm CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
     <!-- ---------Apply Internal CSS---------- -->
     <style>
 
@@ -99,6 +100,14 @@
             color: black;
         }
 
+        .form-input .far {
+            float: right;
+            margin-left: -30px;
+            line-height: 45px;
+            position: absolute;
+            cursor: pointer;
+        }
+
         /* ---------focusing the border of form-input--------- */
         .form-input input:focus, .form-input input:valid
         {
@@ -155,6 +164,7 @@
                             <!-- fontawsm icon for password -->
                             <span><i class="fa fa-lock"></i></span>
                             <input type="password" name="password" id="password" placeholder="Password" required>
+                            <i class="far fa-eye" id="togglePassword"></i>
                         </div>
 
                         <div class="mb-3">
@@ -190,6 +200,6 @@
             </div>
         </div>
     </div>
-
+    <script src = "login.js"></script>
 </body>
 </html>
