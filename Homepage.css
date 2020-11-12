@@ -1,13 +1,347 @@
-/*--------------------------------------------------------------
-# About us
---------------------------------------------------------------*/
+body{
+	overflow-x: hidden;
+}
+/*======================section-one===================================*/
+main #section-one{
 
-  
- 
-  
-/*--------------------------------------------------------------
-# News
---------------------------------------------------------------*/
+	height:100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation:animate 20s ease-in-out infinite;
+}
+@keyframes animate{
+    0%,100%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('https://c1.wallpaperflare.com/preview/1015/464/838/child-children-girl-happy-thumbnail.jpg');
+    }
+    25%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('https://images.pexels.com/photos/1739842/pexels-photo-1739842.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    }
+    50%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('https://charity-ngo.cmsmasters.net/wp-content/uploads/2017/02/home1-2-1.jpg');
+    }
+    75%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('https://c1.wallpaperflare.com/preview/474/152/905/cambodia-village-countryside-kid-thumbnail.jpg');
+	}
+}
+main #section-one .text{
+	width: 100%;
+	height: 100%;
+	/*margin-right: 50%;*/
+	display: left;
+}
+main #section-one .caption-holder{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: white !important;
+	text-align: left;
+}
+/*=======================================text========================*/
+main #section-one .caption-holder .caption-main{
+	width: 80%;
+	margin: auto;
+	height: 100%;
+}
+
+main #section-one .caption-holder .caption-main .real-caption{
+	margin-top: 30%;
+	width: 100%;
+	/*height: 80%;*/
+	display:left;
+	align-items: left;
+	justify-content: space-around;
+}
+
+main #section-one .caption-holder .caption-main .caption{
+	display: none;
+}
+
+.real-caption{
+	font-size: 45px; 
+	color: black !important;
+}
+/*===================================arrows======================*/
+main #section-one .caption-holder .caption-main .leftArrow,
+main #section-one .caption-holder .caption-main .rightArrow{
+	background: #00000036;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 60%;
+	left: 0;
+	cursor: pointer;
+}
+
+main #section-one .caption-holder .caption-main .leftArrow{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+main #section-one .caption-holder .caption-main .rightArrow{
+	left: auto;
+	right: 0;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+main #section-one .caption-holder .caption-main .leftArrow:hover,
+main #section-one .caption-holder .caption-main .rightArrow:hover{
+	background: #00000088;
+}
+
+main #section-one .caption-holder .caption-main .leftArrow .arrow,
+main #section-one .caption-holder .caption-main .rightArrow .arrow{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 5px solid #fff;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-left: none;
+	border-bottom: none;
+}
+
+main #section-one .caption-holder .caption-main .leftArrow .arrow.arrowLeft{
+	transform: rotateZ(-135deg);
+}
+
+main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
+	transform: rotateZ(45deg);
+}
+.text .start{
+	width:250px;
+	margin-top: 100px;
+	margin-left: 20%;
+    background-color:red;
+    /*border-radius: 5px;*/
+	font-size:20px;
+	border-color: red;
+    height:40px
+}
+.start a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+/*----=========================Section Two=====================================------*/
+#section-two{
+	margin-left: 18%;
+}
+#section-two .box-1{
+	background-color: black;
+	color: #fff;
+	width: 300px;
+	height: 350px;
+	margin-top: -10%;
+	padding: 20px;
+	float: left;
+}
+#section-two .box-2{
+	background-color: goldenrod;
+	color: #fff;
+	width: 300px;
+	height: 350px;
+	margin-top: -10%;
+	padding: 20px;
+	float: left;
+}
+#section-two .box-3{
+	background-color: orangered;
+	color: #fff;
+	width: 300px;
+	height: 350px;
+	margin-top: -10%;
+	padding: 20px;
+	float: left;
+}
+#section-two h1{
+	text-align: center;
+}
+#section-two p{
+	text-align: justify;
+	color: white;
+}
+#section-two a{
+	display: block;
+    width: 130px;
+    height: 40px;
+	margin-top: 30px;
+	color: white;
+	border: 2px solid #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+}
+#section-two a:hover{
+	background-color:white;
+	color: black;
+}
+/*--------------============================section-three=============================--------*/
+#section-three{
+	margin-top: 22%;
+	height: 80vh;
+	width: 67%;
+	margin-left: 18%;
+	border:5px solid gray;
+}
+#section-three .about{
+	align-items: center;
+	justify-content: center;
+	margin-top: 6%;
+	margin-left: 42%;
+    display: block;
+	align-items: center;
+	width: 150px;
+	color: white;
+	text-align: center;
+	height: 40px;
+	font-size: 15px;
+	padding: 10px;
+	background-color: gray
+}
+#section-three .every h2{
+	margin-top: 5%;
+	text-align: center;
+	color: orangered;
+	font-size: 40px;
+
+	
+}
+#section-three .every p{
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: grey;
+	font-size: 20px;
+	margin-top: 3%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#section-three .every a{
+	align-items: center;
+	margin-top: 5%;
+	margin-left: 42%;
+    display: block;
+	align-items: center;
+	width: 150px;
+	color: orangered;
+	text-align: center;
+	height: 20px;
+	font-size: 15px;
+	padding: 10px;
+	text-decoration: none;
+}
+#section-three .every a:hover{
+	color: red;
+}
+/*-------------------------==========================section-four====================-----------------*/
+#section-four{
+	margin-left: 25%;
+	width: 100%;
+	height: 260px; 
+
+}
+#section-four .box{
+	    margin-top: 3%;
+		color: #fff;
+		width: 235px;
+		height: 260px;
+		padding: 20px;
+		float: left;
+}
+#section-four h1{
+	font-size: 80px;
+	color: rgba(255, 145, 0, 0.904);
+	margin-top: 2px;
+}
+#section-four h3{
+	font-size: 30px;
+	color: black;
+	margin-top: 5%;
+}
+#section-four p{
+	color: grey;
+	margin-top: -5%;
+	
+}
+/*--------------------=================================section-five======================--------------------*/
+#section-five{
+    margin-top: 15%;
+	position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://c1.wallpaperflare.com/preview/264/421/89/child-children-girl-happy-thumbnail.jpg");
+    background-size: cover;
+} 
+
+#section-five::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color:rgba(0, 0, 139, 0.397);
+}
+#section-five .section-five1{
+	position: absolute;
+	color: #ffffff;  
+	font-size: 20px;
+	/*line-height: 0.9;*/
+	text-align: center;
+	padding-top: 5px;
+	width: 260px;
+	height: 40px;
+	margin-top: -20%;
+	background-color: darkred;
+  }
+#section-five h1 {
+	position: relative;
+	color: #ffffff;  
+	font-size: 40px;
+	/*line-height: 0.9;*/
+	text-align: center;
+  }
+  #section-five p {
+	position: absolute;
+	color: #fff;  
+	font-size: 25px;
+	/*line-height: 0.9;*/
+	text-align: center;
+	margin-top: 15%;
+  }
+#section-five a{
+	position: absolute;
+	align-items: center;
+	margin-top: 25%;
+    display: block;
+	align-items: center;
+	width: 260px;
+	color: #fff;
+	text-align: center;
+	height: 40px;
+	font-size: 20px;
+	text-decoration: none;
+	border: 2px solid #fff;
+
+}
+#section-five a:hover{
+	background-color: #fff;
+	color: orangered;
+}
+
+
 #news-section{
     padding: 70px 0px;
     background-color: #fff;
@@ -105,7 +439,7 @@
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background-color: orangered;
     color: white;
     transform: rotateY(180deg);
   }
@@ -127,8 +461,8 @@
     padding: 20px;
     margin-bottom: 30px;
     transition: 0.5s;
-    background-color:rgb(214, 209, 209);
-    border: 1px solid black;
+    background-color:blue;
+    /*border: 1px solid black;*/
   }
   
   
@@ -136,7 +470,7 @@
     margin-top: 40px;
     padding-bottom: 20px;
     text-align: center;
-    color: #F7EB70;
+    color: #fff;
     font-weight: bold;
   }
   
@@ -144,7 +478,7 @@
     padding-bottom: 15px;
     text-align: center;
     font-size: 17px;
-    color: black;
+    color: white;
   }
   
   .flip-content .flip-content-a{
@@ -160,7 +494,8 @@
     border-radius: 10px;
     /* text-align: center; */
     border-width: 0;
-    background: #543864;
+    /*background: #543864;*/
+    border: 2px solid white;
     color: #fff;
     font-weight: bold;
     letter-spacing: 4px;
@@ -172,11 +507,374 @@
   .flip-content a:hover{
     text-decoration: none;
     background: #ffcef3;
-    color: #fff;
+    color: black;
     font-weight: bold;
     letter-spacing: 4px;
     margin-top: 10px;
     transition: 0.5s;
   }  
+
+
+  /*===========================Responsive For tablet=================================*/
+@media screen and (max-width: 1120px){
+	/*===================section-one=====================*/
+	main #section-one{
+		height:60vh;
+		width: 100%;
+		margin-left: 0%;
+	}
+	main #section-one .caption-holder{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		color: #fff;
+		text-align: center;
+	}
+	main #section-one .caption-holder .caption-main{
+		width: 100%;
+		margin: auto;
+		height: 100%;
+	}
+	
+	main #section-one .caption-holder .caption-main .real-caption{
+		margin-top: 40%;
+		width: 100%;
+		/*height: 80%;*/
+		display:left;
+		align-items: left;
+		justify-content: space-around;
+	}
+	
+	main #section-one .caption-holder .caption-main .caption{
+		display: none;
+	}
+	
+	.real-caption{
+		font-size: 45px;
+	}
+	main #section-one .caption-holder .caption-main .leftArrow,
+main #section-one .caption-holder .caption-main .rightArrow{
+	top: 40%;
+}
+	.text .start{
+		width:400px;
+		margin-top: 80px;
+		margin-left: 20%;
+		background-color:red;
+		/*border-radius: 5px;*/
+		font-size:30px;
+		border-color: red;
+		height:50px
+	}
+	.start a{
+		text-decoration: none;
+		color: white;
+		font-size: 30px;
+		font-family: 'Courier New', Courier, monospace;
+	}
+	
+	
+	/*===================section-two======================*/
+	#section-two{
+		margin-left: 9%;
+	}
+	/*======================section-three================*/
+	#section-three{
+		margin-top: 26%;
+		height: 60vh;
+		width: 100%;
+		margin-left: 0%;
+		border:5px solid gray;
+	}
+	#section-three .about{
+		align-items: center;
+		justify-content: center;
+		margin-top: 6%;
+		margin-left: 33%;
+		display: block;
+		align-items: center;
+		width: 400px;
+		color: white;
+		text-align: center;
+		height: 80px;
+		font-size: 30px;
+		padding: 10px;
+		background-color: gray
+	}
+	#section-three .every h2{
+		margin-top: 5%;
+		text-align: center;
+		color: orangered;
+		font-size: 45px;
+	
+		
+	}
+	#section-three .every p{
+		text-align: center;
+		padding-left: 40px;
+		padding-right: 40px;
+		color: grey;
+		font-size: 30px;
+		margin-top: 3%;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+	#section-three .every a{
+		align-items: center;
+		margin-top: 5%;
+		margin-left: 36%;
+		display: block;
+		align-items: center;
+		width: 300px;
+		color: orangered;
+		text-align: center;
+		height: 20px;
+		font-size: 35px;
+		padding: 10px;
+		text-decoration: none;
+	}
+	/*=======================section-four====================*/
+	#section-four{
+		margin-left: 18%;
+		width: 100%;
+		height: 260px; 
+	
+	}
+	
+
+}
+
+
+  /*------------------------make responsive---------------------------*/
+  
+  @media screen and (max-width: 625px){
+	body{
+		overflow-x: hidden;
+	}
+	  /*---------------------------------section-one---------------*/
+	  main #section-one{
+		width: 100%;
+		margin-left: 0%
+	  }
+	.real-caption{
+		font-size: 20px;
+	}
+	main #section-one{
+		background: violet;
+		
+		height: 35vh;
+		position: relative;
+		background-size: cover;
+        background-repeat: no-repeat;
+	}
+	main #section-one .caption-holder .caption-main .leftArrow,
+	main #section-one .caption-holder .caption-main .rightArrow{
+		top: 60%;
+		width: 40px;
+		height: 40px;
+	}
+	main #section-one .caption-holder .caption-main .leftArrow .arrow,
+    main #section-one .caption-holder .caption-main .rightArrow .arrow{
+	width: 20px;
+	height: 20px;
+
+	left: 0;
+	right: 0;
+	}
+	main #section-one .caption-holder .caption-main .real-caption{
+		margin-top: 10%;
+		width: 100%;
+		/*height: 80%;*/
+		display:left;
+		align-items: left;
+		/*justify-content: space-around;*/
+	}
+	.text .start{
+		width:180px;
+		margin-top: 30px;
+		margin-left: 20%;
+		background-color:red;
+		/*border-radius: 5px;*/
+		font-size:10px;
+		border-color: red;
+		height:20px
+	}
+	.start a{
+		text-decoration: none;
+		color: white;
+		font-size: 15px;
+		font-family: 'Courier New', Courier, monospace;
+	}
+	
+	/*=====================section-two=================*/
+
+	#section-two{
+		/*margin-left: 16%;*/
+		width: 100%;
+		margin-left: 0%
+	}
+	#section-two .box-1{
+		background-color: black;
+		color: #fff;
+		width: 100%;
+		height: 100%;
+		margin-top: 5%;
+		padding: 20px;
+	}
+	#section-two .box-2{
+		background-color: goldenrod;
+		color: #fff;
+		width: 100%;
+		height: 350px;
+		margin-top: 2%;
+		padding: 20px;
+	}
+	#section-two .box-3{
+		background-color: orangered;
+		color: #fff;
+		width: 100%;
+		height: 350px;
+		margin-top: 2%;
+		padding: 20px;
+	}
+	/*=======================section-three======================*/
+	#section-three{
+		margin-top: 250%;
+		height: 80vh;
+		width: 100%;
+		margin-left: 0%;
+		border:5px solid gray;
+	}
+	#section-three .about{
+		align-items: center;
+		margin-top: 10%;
+		margin-left: 31%;
+		display: block;
+		align-items: center;
+		width: 150px;
+		color: white;
+		text-align: center;
+		height: 40px;
+		font-size: 18px;
+		padding: 10px;
+		background-color: gray
+	}
+	#section-three .every h2{
+		text-align: center;
+		color: orangered;
+		font-size: 20px;
+
+		
+	}
+	#section-three .every p{
+		text-align: center;
+		padding-left: 40px;
+		padding-right: 40px;
+		color: grey;
+		font-size: 18px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+	#section-three .every a{
+		align-items: center;
+		margin-top: 5%;
+    margin-left: 11%;
+    font-size: 18px;
+	}
+	/*==========================section-four==================*/
+	#section-four{
+		/*margin-left: 16%;*/
+		width: 100%;
+		height: 260px; 
+		margin-left: 0%
+	
+	}
+	#section-four .box{
+			margin-top: 16.5%;
+			color: #fff;
+			width: 235px;
+			height: 260px;
+			padding: 20px;
+      float: left;
+      margin-left: 22%
+	}
+	/*=====================================section-five===================*/
+	#section-five{
+		margin-top: 220%;
+		position: relative; 
+		height: 100vh;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-image: url("https://c1.wallpaperflare.com/preview/264/421/89/child-children-girl-happy-thumbnail.jpg");
+		background-size: cover;
+		margin-left: 0%
+	} 
+	#section-five .section-five1{
+		position: absolute;
+		color: #ffffff;  
+		font-size: 20px;
+		/*line-height: 0.9;*/
+		text-align: center;
+		padding-top: 5px;
+		width: 260px;
+		height: 40px;
+		margin-top: -80%;
+		background-color: darkred;
+	  }
+	#section-five h1 {
+		position: relative;
+		color: #ffffff;  
+		font-size: 23px;
+		/*line-height: 0.9;*/
+		text-align: center;
+		margin-top: -50%;
+	  }
+	  #section-five p {
+		position: absolute;
+		color: #fff;  
+		font-size: 20px;
+		/*line-height: 0.9;*/
+		text-align: center;
+		margin-top: 15%;
+	  }
+	#section-five a{
+		position: absolute;
+		align-items: center;
+		margin-top:55%;
+		display: block;
+		align-items: center;
+		width: 200px;
+		color: #fff;
+		text-align: center;
+		height: 30px;
+		font-size: 15px;
+		text-decoration: none;
+		border: 2px solid #fff;
+		padding-top: 2px;
+	
+	}
+	/*=============================news-section==========================*/
+	.news-title h3{
+		text-align: center;
+		font-weight: bold;
+		font-size: 25px;
+		width: 100%;
+	    margin-left: 1%;
+		color:white;
+		background-color: rgb(124, 123, 123);
+	  }
+	  #news-section .container{
+		margin-top: 40px;
+		width: 100%;
+	  }
+	
+
+	
+
+
+}
+
 
   
