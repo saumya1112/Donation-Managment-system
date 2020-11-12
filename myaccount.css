@@ -234,6 +234,48 @@ main{
 
 
 
+
+
+
+/* ---------------Apply Mediaquery------------- */
+@media only screen and (max-width:978px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 3fr;
+        grid-template-areas: "nav" "main";
+    }
+    #sidebar{
+        display: none;
+    }
+    .sidebar_title > i{
+        display: inline;
+    }
+    .nav_icon{
+        display: inline;
+    }
+    
+}
+
+@media only screen and (max-width:855px) {
+    .main_cards{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+    
+}
+
+@media only screen and (max-width:480px){
+    .navbar_left{
+        display: none;
+    }
+    
+}
+
+
+
+
+
 /* ---------------My Reprt Table------------ */
 table,tr,td,th
 {
@@ -276,37 +318,100 @@ tbody tr{
 
 
 
-/* ---------------Apply Mediaquery------------- */
-@media only screen and (max-width:978px){
-    .container{
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.2fr 3fr;
-        grid-template-areas: "nav" "main";
-    }
-    #sidebar{
-        display: none;
-    }
-    .sidebar_title > i{
-        display: inline;
-    }
-    .nav_icon{
-        display: inline;
-    }
-    
+/* ------table responsive------------ */
+@media(max-width: 740px){
+	table thead{
+		display: none;
+	}
+
+	table, table tbody, table tr, table td{
+		display: block;
+		width: 100%;
+	}
+	table tr{
+		margin-bottom:15px;
+	}
+	table td{
+		text-align: right;
+		/* padding-left: 10px; */
+		position: relative;
+	}
+	table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
 }
 
-@media only screen and (max-width:855px) {
-    .main_cards{
-        grid-template-columns: 1fr;
-        gap: 10px;
-        margin-bottom: 0;
-    }
+
+
+
+
+
+/* -------search box------- */
+.search-box{
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 13px #f7f5f5 , -5px -5px  13px #ffffff ;
+}
+.search-btn{
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 4px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #2e4a66;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #2e4a66;
+    box-shadow: 5px 5px 13px #faf8f8 , -5px -5px  13px #ffffff ;
+}
+.search-btn:hover{
+    background-color: #2e4a66cb;
     
+}
+@media only screen and (max-width:400px) {
+    .search-box{
+        padding: 9px;
+        border-radius: 10px;
+        margin-left: 10px;
+        outline: none;
+        width: 120px;
+        border: none;
+        background-color: white;
+        color:black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        box-shadow: 5px 5px 13px #faf8f8 , -5px -5px  13px #ffffff ;
+    }
+    .search-btn{
+        padding: 9px;
+        border-radius: 10px;
+        margin-left: 4px;
+        outline: none;
+        border: none;
+        color: white;
+        background-color: #2e4a66;
+        font-size: 10px;
+        font-weight: bold;
+        box-shadow: 5px 5px 13px #f5f4f4 , -5px -5px  13px #ffffff ;
+    }
 }
 
-@media only screen and (max-width:480px){
-    .navbar_left{
-        display: none;
-    }
-    
-}
+
+
+
