@@ -94,22 +94,22 @@
                     <div class="center-div">
                    
                     <form action="" method="POST">
-                        <input type="text" name="name" placeholder="Enter your Name">
-                        <input type="submit" name="search" value="search">
+                        <div class= search>
+                            <input class="search-box" type="text" name="name" placeholder="Enter your Name">
+                            <input class="search-btn" type="submit" name="search" value="Search">
+                        </div>
                          </form>
                             <table>
                                 <thead>
                                     <tr>
                                        
-                                        <th>Name</th>
-                                        <th>Email</th>
-                                        
-                                        <th>City</th>
-                                        
-                                        <th>Donated Items</th>
-                                        <th>Item-1</th>
-                                        <th>Item-2</th>
-                                        <th>Amount</th>
+                                        <th >Name</th>
+                                        <th >Email</th>
+                                        <th >City</th>
+                                        <th >Donated Items</th>
+                                        <th >Item-1</th>
+                                        <th >Item-2</th>
+                                        <th >Amount</th>
                                         
                                     </tr>
                                 </thead>
@@ -128,13 +128,13 @@
                                     ?>
                                       <tr>
                                        
-                                        <td><?php echo $data['name']; ?></td>
-                                        <td><?php echo $data['email']; ?></td>
-                                        <td><?php echo $data['city']; ?></td>
-                                        <td><?php echo $data['Donatething']; ?></td>
-                                        <td><?php echo $data['thing1']; ?></td>
-                                        <td><?php echo $data['thing2']; ?></td>
-                                        <td><?php echo $data['amount']; ?></td>
+                                        <td data-label="Name"><?php echo $data['name']; ?></td>
+                                        <td data-label="Email"><?php echo $data['email']; ?></td>
+                                        <td data-label="City"><?php echo $data['city']; ?></td>
+                                        <td data-label="Donated Items"><?php echo $data['Donatething']; ?></td>
+                                        <td data-label="Item1"><?php echo $data['thing1']; ?></td>
+                                        <td data-label="Item2"><?php echo $data['thing2']; ?></td>
+                                        <td data-label="Amount"><?php echo $data['amount']; ?></td>
                                       </tr>	
                                     <?php
                                     }
@@ -199,15 +199,15 @@
                 <div class="modal-content_2">
                 <span class="close3">&times;</span>
                 <div id="text_2">
-                    <h1> Cause Title<img src="./assets/images/orgmodal.jpeg"></h1>
-                    <h2>Why Should We DONATE ?</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorem hic suscipit in architecto nihil natus laudantium, fugiat molestias dfghdffd rdgrdfg rfgrsfg rsfgsdfg fdgsdg sdgsdgds gdhdgc quas dolorum ab tenetur at? Quasi ab, tenetur rerum nobis delectus commodi eos recusandae veniam, quidem, cupiditate ipsa. Indsvtsh fdgddf fdhggfd ergdfgvd fgdfgdf dfgdfgdsf dfgsdfgdf fdgdfgdf dfgdfgdf sdfgdfgdf dfgdf culpa quis voluptatem nisi quisquam. Illo placeat possimus, doloribus obcaecati a deserunt </p>
+                    <h1> Organisation<img src="./assets/images/orgmodal.jpeg"></h1>
+                    <h2>Why Should We DONATE ?</h2><p>When we donate to a charitable organization, we help make the difference we're unable to provide with our own hands. Consequently, social impact organizations don't just work to achieve their mission—they also empower individuals to effect change. They mobilize people to play a part in making the world a better place.And as it turns out, when you take this opportunity to give to the causes you care about, beneficiaries aren’t the only ones who reap the rewards—you do too. Check out this infographic to learn why donating your money and time can be the best thing you do for yourself.</p>
                 </div>
                 
                     <div id="box_2">
 
                     <h2>I Would Like To Donate</h2>
                    
-                        <button >DONATE NOW</button>
+                        <a href="docharity.html"><button >DONATE NOW</button></a>
                    
                     </div>
                 </div>
@@ -231,15 +231,15 @@
                         <span class="close1">&times;</span>
                         
                         <div id="text">
-                            <h1> Cause Title<img src="./assets/images/emgmodal.jpeg"></h1>
-                            <h2>Why Should We DONATE ?</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorem hic suscipit in architecto nihil natus laudantium, fugiat molestias dfghdffd rdgrdfg rfgrsfg rsfgsdfg fdgsdg sdgsdgds gdhdgc quas dolorum ab tenetur at? Quasi ab, tenetur rerum nobis delectus commodi eos recusandae veniam, quidem, cupiditate ipsa. Indsvtsh fdgddf fdhggfd ergdfgvd fgdfgdf dfgdfgdsf dfgsdfgdf fdgdfgdf dfgdfgdf sdfgdfgdf dfgdf culpa quis voluptatem nisi quisquam. Illo placeat possimus, doloribus obcaecati a deserunt </p>
+                            <h1> Emergency<img src="./assets/images/emgmodal.jpeg"></h1>
+                            <h2>Why Should We DONATE ?</h2><p>With more than 75 years experience delivering humanitarian assistance throughout the world, CRS has a strong background in emergency preparedness and response. We work directly with affected communities and local partners to help communities build back better.Your gift helps rush humanitarian aid and emergency relief to immediate and ongoing crises around the world.Please donate to help survivors of these emergencies.Once we meet immediate needs for food, water and shelter, we transition to rebuilding and reconstruction, supporting the survivors of natural disasters and chronic emergencies in reclaiming their lives.</p>
                         </div>
                         
                         <div id="box">
                 
                             <h2>I Would Like To Donate</h2>
                            
-                                <button >DONATE NOW</button>
+                            <a href="docharity.html"><button >DONATE NOW</button></a>
                             
                             </div>
                     </div>
@@ -263,15 +263,15 @@
                 <span class="close2">&times;</span>
 
                 <div id="text_1">
-                    <h1> Cause Title<img src="./assets/images/indiviual.jpeg"></h1>
-                    <h2>Why Should We DONATE ?</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorem hic suscipit in architecto nihil natus laudantium, fugiat molestias dfghdffd rdgrdfg rfgrsfg rsfgsdfg fdgsdg sdgsdgds gdhdgc quas dolorum ab tenetur at? Quasi ab, tenetur rerum nobis delectus commodi eos recusandae veniam, quidem, cupiditate ipsa. Indsvtsh fdgddf fdhggfd ergdfgvd fgdfgdf dfgdfgdsf dfgsdfgdf fdgdfgdf dfgdfgdf sdfgdfgdf dfgdf culpa quis voluptatem nisi quisquam. Illo placeat possimus, doloribus obcaecati a deserunt </p>
+                    <h1>Individual<img src="./assets/images/indiviual.jpeg"></h1>
+                    <h2>Why Should We DONATE ?</h2><p>Whether you give money, time or both, it can be hugely satisfying to know that you’re doing your bit to help a cause close to your heart.We’re here to encourage effective giving and to help you feel good about that experience. Take control of your everyday giving. Whether you want to make a one-off donation, or give regularly, we’ll help you make the most of your generosity.If you donate direct to charity, check out our tips to protect yourself and your donations</p>
                 </div>
                 
                     <div id="box_1">
 
                     <h2>I Would Like To Donate</h2>
                     
-                        <button id="button">DONATE NOW</button>
+                        <a href="docharity.html"><button id="button">DONATE NOW</button></a>
                   
                     </div>
 
@@ -279,15 +279,9 @@
 
                 </div>
 
-                <h2>Payroll</h2>
-                <div class="sidebar_link">
-                    <i class="fa fa-briefcase"></i>
-                    <a href="#">Transections</a>
-                </div>
-
                 <div class="sidebar_back">
                     <i class="fa fa-backward"></i>
-                    <a href="Home page.html">Go Back</a>
+                    <a href="Home.php">Go Back</a>
                 </div>
             </div>
 

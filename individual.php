@@ -92,7 +92,7 @@
                     </div>
                     <div class="row">
                         <div class="col-25">          
-                            <label for="city">Please specify the cloth</label>
+                            <label for="city">Please specify the things</label>
                         </div>
                         <div class="col-75">
                         <input type="text" id="thing1" name="thing1" placeholder="shirt" required>
