@@ -115,22 +115,6 @@ main #section-one .caption-holder .caption-main .leftArrow .arrow.arrowLeft{
 main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 	transform: rotateZ(45deg);
 }
-.text .start{
-	width:250px;
-	margin-top: 100px;
-	margin-left: 20%;
-    background-color:red;
-    /*border-radius: 5px;*/
-	font-size:20px;
-	border-color: red;
-    height:40px
-}
-.start a{
-	text-decoration: none;
-	color: white;
-	font-size: 18px;
-	font-family: 'Courier New', Courier, monospace;
-}
 
 /*----=========================Section Two=====================================------*/
 #section-two{
@@ -170,7 +154,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 	text-align: justify;
 	color: white;
 }
-#section-two a{
+/*#section-two a{
 	display: block;
     width: 130px;
     height: 40px;
@@ -184,7 +168,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 #section-two a:hover{
 	background-color:white;
 	color: black;
-}
+}*/
 /*--------------============================section-three=============================--------*/
 #section-three{
 	margin-top: 22%;
@@ -514,6 +498,68 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
     transition: 0.5s;
   }  
 
+  /*-=======================Responsive for Laptop HiDPI--============================================*/
+  @media screen and (max-width: 1440px){
+	  /*=======================section-two======================================================*/
+	#section-two{
+		margin-left: 18%;
+	}
+	/*=========================section-three==================================*/
+	#section-three{
+		margin-top: 22%;
+		height: 80vh;
+		width: 67%;
+		margin-left: 16%;
+		border:5px solid gray;
+	}
+	#section-three .about{
+		align-items: center;
+		justify-content: center;
+		margin-top: 6%;
+		margin-left: 42%;
+		display: block;
+		align-items: center;
+		width: 150px;
+		color: white;
+		text-align: center;
+		height: 40px;
+		font-size: 15px;
+		padding: 10px;
+		background-color: gray
+	}
+	#section-three .every h2{
+		margin-top: 5%;
+		text-align: center;
+		color: orangered;
+		font-size: 40px;
+	
+		
+	}
+	#section-three .every p{
+		text-align: center;
+		padding-left: 40px;
+		padding-right: 40px;
+		color: grey;
+		font-size: 20px;
+		margin-top: 3%;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+	#section-three .every a{
+		align-items: center;
+		margin-top: 5%;
+		margin-left: 42%;
+		display: block;
+		align-items: center;
+		width: 150px;
+		color: orangered;
+		text-align: center;
+		height: 20px;
+		font-size: 15px;
+		padding: 10px;
+		text-decoration: none;
+	}
+	 
+
 
   /*===========================Responsive For tablet=================================*/
 @media screen and (max-width: 1120px){
@@ -646,7 +692,7 @@ main #section-one .caption-holder .caption-main .rightArrow{
 }
 
 
-  /*------------------------make responsive---------------------------*/
+  /*------------------------Responsive For 625px---------------------------*/
   
   @media screen and (max-width: 625px){
 	body{
@@ -873,6 +919,92 @@ main #section-one .caption-holder .caption-main .rightArrow{
 
 	
 
+
+}
+/*===================================Responsive for iPhoneX and iPhone6/7/8===================*/
+@media screen and (max-width: 375px){
+	#section-three{
+		margin-top: 280%;
+		height: 70vh;
+		width: 100%;
+		margin-left: 0%;
+		border:5px solid gray;
+	}
+
+}
+/*==================================Responsive for Moto G4 and Galaxy S5========*/
+@media screen and (max-width: 360px){
+	#section-three{
+		margin-top: 285%;
+		height: 85vh;
+		width: 100%;
+		margin-left: 0%;
+		border:5px solid gray;
+	}
+	#section-four .box{
+		margin-top: 17.5%;
+		color: #fff;
+		width: 235px;
+		height: 260px;
+		padding: 20px;
+  float: left;
+  margin-left: 22%
+}
+
+}
+/*==============================Responsve for iPhone5Se==============*/
+@media screen and (max-width: 320px){
+	#section-three{
+		margin-top: 320%;
+		height: 85vh;
+		width: 100%;
+		margin-left: 0%;
+		border:5px solid gray;
+	}
+	#section-three .every a{
+		align-items: center;
+		margin-top: 5%;
+    margin-left: 4%;
+    font-size: 16px;
+	}
+	#section-three .about{
+		align-items: center;
+		margin-top: 10%;
+		margin-left: 28%;
+		display: block;
+		align-items: center;
+		width: 150px;
+		color: white;
+		text-align: center;
+		height: 40px;
+		font-size: 18px;
+		padding: 10px;
+		background-color: gray
+	}
+	#section-five{
+		margin-top: 250%;
+		position: relative; 
+		height: 100vh;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-image: url("https://c1.wallpaperflare.com/preview/264/421/89/child-children-girl-happy-thumbnail.jpg");
+		background-size: cover;
+		margin-left: 0%
+	} 
+	#section-five .section-five1{
+		position: absolute;
+		color: #ffffff;  
+		font-size: 20px;
+		/*line-height: 0.9;*/
+		text-align: center;
+		padding-top: 5px;
+		width: 260px;
+		height: 40px;
+		margin-top: -100%;
+		background-color: darkred;
+	  }
 
 }
 

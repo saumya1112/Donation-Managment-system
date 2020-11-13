@@ -17,13 +17,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>About</title>
+    <!--<link rel="stylesheet" href="about.css">-->
+=======
     <title>Home</title>
     <link rel="stylesheet" href="Homepage.css">
+>>>>>>> f4ec4eec6a236091ce8e6061cdcb625ed1da6514
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Icon css link -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--  css file --> 
     <link rel="stylesheet" href="Header-footer.css">    
+    <link rel="stylesheet" href="Homepage.css"> 
 </head>
 <body>
 <div class="header">
@@ -159,6 +165,178 @@
                 <a href="#"><b>GET DONATE NOW!</b></a>
                
             </section>
+            <!-- ==================================news carousel ====================================== -->
+<section id="news-section">
+    <div class="news-title">
+      <h3>BE FIRST TO READ</h3>
+      <h1>LATEST NEWS</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Emergency</h1>
+                <p>Lorem ipsum dolor sit, </p>
+                <p>Help the Need!!</p>
+                <button>Donate</button>
+              </div>
+            </div>
+          </div>
+          <div class="flip-content">
+            <h4>Lorem ipsum dolor sit</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
+               animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
+            <div class="flip-content-a">
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+                <button>Donate</button>
+              </div>
+            </div>
+          </div>
+          <div class="flip-content">
+            <h4>Lorem ipsum dolor sit</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
+               animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
+            <div class="flip-content-a">
+              <a href="">Read More</a>
+            </div>
+          </div>      
+        </div>
+  
+        <div class="col-sm-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+                <button>Donate</button>
+              </div>
+            </div>
+          </div>
+          <div class="flip-content">
+            <h4>Lorem ipsum dolor sit</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
+               animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
+            <div class="flip-content-a">
+              <a href="">Read More</a>
+            </div>
+          </div> 
+        </div>
+  
+      </div>
+    </div>
+  
+  
+  
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:100%;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+                <button>Donate</button>
+              </div>
+            </div>
+          </div>
+          <div class="flip-content">
+            <h4>Lorem ipsum dolor sit</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
+               animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
+            <div class="flip-content-a">
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+                <button>Donate</button>
+              </div>
+            </div>
+          </div>
+          <div class="flip-content">
+            <h4>Lorem ipsum dolor sit</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
+               animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
+            <div class="flip-content-a">
+              <a href="">Read More</a>
+            </div>
+          </div>      
+        </div>
+  
+        <div class="col-sm-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+                <button>Donate</button>
+              </div>
+            </div>
+          </div>
+          <div class="flip-content">
+            <h4>Lorem ipsum dolor sit</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
+               animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
+            <div class="flip-content-a">
+              <a href="">Read More</a>
+            </div>
+          </div> 
+        </div>
+  
+      </div>
+    </div>
+  
+  
+    
+  </section>
             </main>
 
 <!--==============================javascript-file================================================S-->
