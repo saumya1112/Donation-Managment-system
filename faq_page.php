@@ -1,3 +1,18 @@
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['username'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login_form.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['username']);
+  	header('location: index.html');
+  }
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,8 +41,7 @@
 
 
 
-    <header>
-      <div class="header">
+<div class="header">
         <!-- Logo -->
         <nav id="logo"><a class="navbar-brand" href="#"><img src="assets/images/logo.jpeg"> Find Fortune</a></nav>
         <!-- Logo-->
@@ -38,18 +52,30 @@
         <ul class="menu">
             <!-- Links -->
 
-           <li><a href="login_form.php" onclick="alert('You need to login first');">About Us</a></li>
-           <li><a href="signup_form.html">Signup</a></li>
-           <li><a href="login_form.html">Login</a></li>
-           <li><a href="login_form.php" onclick="alert('You need to login first');">FAQ</a></li>
-           <li><a href="login_form.php" onclick="alert('You need to login first');">Contact Us</a></li>
+           <li><a href="About.php">About Us</a></li>
+           <li><a href="faq_page.php">FAQ</a></li>
+           <li class = "dropdown"><a href="docharity.php">Do Charity<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <ul class="submenu">
+                <li> <a href="docharity.php#individual">Individual</a></li>
+                <li><a href="docharity.php#emergency">Emergency</a></li>
+                <li><a href="docharity.php#organization">Organization</a></li>
+            </ul>
+        </li>
+        <li><a href="myaccount.php">My Account</a></li>
+        <li><a href="contact us.php">Contact Us</a></li>
+        <li>
+          <!------logout button ------>
+          <a href="Home.php?logout='1'"> 
+          <input type="submit" value = "Log out" name = "logout" class = "logout"></a>
+        </li>
+           
+           
            <label for="chk" class="hide-btn">
                <i class="fa fa-times" ></i>
            </label>
-       </ul>
+        </ul>
        
     </div>
-    </header>
 
     <br><br><br><br><br><br><br>
     
