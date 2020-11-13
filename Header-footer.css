@@ -63,27 +63,21 @@
 .menu li a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
-    padding:0px 20px ;
+    padding:0px 15px ;
     transition: .4s;
    
 }
-.menu li a:hover,.show-btn:hover,.hide-btn:hover{
+.menu li a:hover,.show-btn:hover,.hide-btn:hover, .dropdown .submenu li:hover{
     color: grey;
-}
-
-.menu li a{
-    font-size: 18px;
-    padding:0px 15px ;
-    position: relative;
 }
 
 li .logout{
     background:none; 
     outline:none; 
     color: white;
-    font-size: 20px; 
+    font-size: 18px; 
     text-transform: uppercase; 
     transition: .4s;
     border:none ;
@@ -99,7 +93,6 @@ li .logout:hover{
     width: 180px;
     height: 280px;
     display: none;
-    z-index: 4;
     color: white;
     font-size: 18px;
     padding:0px 15px ;
@@ -109,10 +102,6 @@ li .logout:hover{
 
 .menu .dropdown li{
     line-height: 20px;
-}
-
-.dropdown .submenu li:hover{
-    color: grey;
 }
 
 .dropdown i{
@@ -197,7 +186,7 @@ li .logout:hover{
         margin-top: 20px;
     }
 }
- /*second break-point*/
+    /*second break-point*/
  @media (max-width: 625px) {
        
     .navbar-brand{
@@ -215,7 +204,7 @@ li .logout:hover{
     .header{
         width:100%;
         height: 85px;
-        background-color:rgb(34, 34, 34);
+        background-color: black;
         padding: 0 20px ;
         position: fixed;
         font-family: Poppins;
@@ -279,7 +268,7 @@ h2{
   
     background: #111;
     padding: 30px 0;
-    /* margin: 560px 0 0 0; */
+    /* margin: 0 0 0 0; */
     padding-bottom: 30px;
     position: sticky;
     bottom: 0;
