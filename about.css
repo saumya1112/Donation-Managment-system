@@ -336,12 +336,12 @@ body{
 }
 
 .service-img{
-    height: 278vh;
+    height: 280vh;
     width: 122%;
 }
 
 .service-txt{
-    top: 160%;
+    top: 163%;
     width: 70%;
 }
 
@@ -368,7 +368,7 @@ body{
 } */
 
 .team .circle img{
-    margin-left: 20px;
+    margin-left: 25px;
     margin-right: 20px;
 }
 
@@ -377,9 +377,13 @@ body{
     margin-top: 520px;
 }
 
+.team .nandinee img{
+    margin-left: 620px;
+}
+
 .team .boxes{
     position: absolute;
-    top: 489%;
+    top: 496%;
     left: 5%;
     transform: translate(-0%, -0%);
     width: 117%;
@@ -400,9 +404,8 @@ body{
 }
 
 .footer{
-    margin: 1070px 0 0 0 !important;
+    margin: 1050px 0 0 0 !important;
     width: 122% !important;
-    padding-top: 30px;
 }
 
 .footer-bottom-text{
@@ -456,7 +459,7 @@ body{
 }
 
 .service-img{
-    height: 315vh;
+    height: 305vh;
     width: 155%;
 }
 
@@ -474,6 +477,10 @@ body{
 .service-txt .box{
     width: 400px;
     margin: 0px 60px 20px 60px;
+}
+
+.team h1{
+    margin-left: 200px;
 }
 
 .team .circle{
@@ -494,11 +501,15 @@ body{
 }
 
 .team .neeti{
-    margin-top: 2020px;
+    margin-top: 2048px;
+}
+
+.team .nandinee img{
+    margin-left: 20px;
 }
 
 .team .boxes{
-    top: 550%;
+    top: 544%;
     width: 110%;
     margin-left: 150px;
 }
@@ -509,9 +520,9 @@ body{
 }
 
 .footer{
-    margin: 1270px 0 0 0 !important;
-    width: 130% !important;
-    padding-top: 10px !important;
+    margin: 2600px 0 0 0 !important;
+    width: 155% !important;
+   
 }
 
 .footer-bottom-text{

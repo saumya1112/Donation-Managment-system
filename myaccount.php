@@ -94,22 +94,22 @@
                     <div class="center-div">
                    
                     <form action="" method="POST">
-                        <input type="text" name="name" placeholder="Enter your Name">
-                        <input type="submit" name="search" value="search">
+                        <div class= search>
+                            <input class="search-box" type="text" name="name" placeholder="Enter your Name">
+                            <input class="search-btn" type="submit" name="search" value="Search">
+                        </div>
                          </form>
                             <table>
                                 <thead>
                                     <tr>
                                        
-                                        <th>Name</th>
-                                        <th>Email</th>
-                                        
-                                        <th>City</th>
-                                        
-                                        <th>Donated Items</th>
-                                        <th>Item-1</th>
-                                        <th>Item-2</th>
-                                        <th>Amount</th>
+                                        <th >Name</th>
+                                        <th >Email</th>
+                                        <th >City</th>
+                                        <th >Donated Items</th>
+                                        <th >Item-1</th>
+                                        <th >Item-2</th>
+                                        <th >Amount</th>
                                         
                                     </tr>
                                 </thead>
@@ -128,13 +128,13 @@
                                     ?>
                                       <tr>
                                        
-                                        <td><?php echo $data['name']; ?></td>
-                                        <td><?php echo $data['email']; ?></td>
-                                        <td><?php echo $data['city']; ?></td>
-                                        <td><?php echo $data['Donatething']; ?></td>
-                                        <td><?php echo $data['thing1']; ?></td>
-                                        <td><?php echo $data['thing2']; ?></td>
-                                        <td><?php echo $data['amount']; ?></td>
+                                        <td data-label="Name"><?php echo $data['name']; ?></td>
+                                        <td data-label="Email"><?php echo $data['email']; ?></td>
+                                        <td data-label="City"><?php echo $data['city']; ?></td>
+                                        <td data-label="Donated Items"><?php echo $data['Donatething']; ?></td>
+                                        <td data-label="Item1"><?php echo $data['thing1']; ?></td>
+                                        <td data-label="Item2"><?php echo $data['thing2']; ?></td>
+                                        <td data-label="Amount"><?php echo $data['amount']; ?></td>
                                       </tr>	
                                     <?php
                                     }
@@ -207,7 +207,7 @@
 
                     <h2>I Would Like To Donate</h2>
                    
-                        <button >DONATE NOW</button>
+                        <a href="docharity.html"><button >DONATE NOW</button></a>
                    
                     </div>
                 </div>
@@ -239,7 +239,7 @@
                 
                             <h2>I Would Like To Donate</h2>
                            
-                                <button >DONATE NOW</button>
+                            <a href="docharity.html"><button >DONATE NOW</button></a>
                             
                             </div>
                     </div>
@@ -271,7 +271,7 @@
 
                     <h2>I Would Like To Donate</h2>
                     
-                        <button id="button">DONATE NOW</button>
+                        <a href="docharity.html"><button id="button">DONATE NOW</button></a>
                   
                     </div>
 
@@ -279,15 +279,9 @@
 
                 </div>
 
-                <h2>Payroll</h2>
-                <div class="sidebar_link">
-                    <i class="fa fa-briefcase"></i>
-                    <a href="#">Transections</a>
-                </div>
-
                 <div class="sidebar_back">
                     <i class="fa fa-backward"></i>
-                    <a href="Home page.html">Go Back</a>
+                    <a href="Home.php">Go Back</a>
                 </div>
             </div>
 

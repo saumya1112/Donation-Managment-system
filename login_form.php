@@ -1,3 +1,5 @@
+<?php include 'server.php'?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +12,8 @@
 
     <!-- Link of Fontawsm CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
     <!-- ---------Apply Internal CSS---------- -->
     <style>
 
@@ -32,6 +35,20 @@
             border: 0 !important;
             border-radius: 20px !important;
             box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.836);
+        }
+
+        .error {
+            width: 92%; 
+            margin: 0px auto; 
+            margin-bottom: 20px;
+            padding: 8px; 
+            border: 1px solid #cc3300; 
+            color: white;
+            font-size: 18px;
+            font-weight:bold; 
+            background: #ff9966; 
+            border-radius: 5px; 
+            text-align: center;
         }
 
         /* -----------image--------------- */
@@ -83,6 +100,14 @@
             color: black;
         }
 
+        .form-input .far {
+            float: right;
+            margin-left: -30px;
+            line-height: 45px;
+            position: absolute;
+            cursor: pointer;
+        }
+
         /* ---------focusing the border of form-input--------- */
         .form-input input:focus, .form-input input:valid
         {
@@ -124,27 +149,29 @@
                         <i class="fa fa-user-circle-o"></i> Login
                     </h4>
 
-                    <form class="form-box px-3">
+                    <form class="form-box px-3" action="login_form.php" method="POST">
+                    <?php include('errors.php'); ?>
 
-                        <!---------email--------->
+                        <!---------username--------->
                         <div class="form-input">
                             <!-- fontawsm icon for email -->
-                            <span><i class="fa fa-envelope"></i></span>
-                            <input type="email" name="" placeholder="Email Address" tabindex="10" required>
+                            <span><i class="fa fa-user"></i></span>
+                            <input type="text" name="username" id="username" placeholder="Username" tabindex="10" required>
                         </div>
 
                         <!-------- password ------->
                         <div class="form-input">
                             <!-- fontawsm icon for password -->
                             <span><i class="fa fa-lock"></i></span>
-                            <input type="password" name="" placeholder="Password" required>
+                            <input type="password" name="password" id="password" placeholder="Password" required>
+                            <i class="far fa-eye" id="togglePassword"></i>
                         </div>
 
                         <div class="mb-3">
                             <!------- checkbox ------>
                             <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input"  id="cb1" name="">
-                                <label class="custom-control-label" for="cb1">
+                                <input type="checkbox" class="custom-control-input" onchange="IsRememberMe(this)" id="rememberMe" name="">
+                                <label class="custom-control-label" for="rememberMe">
                                     Remember me
                                 </label>
                             </div>
@@ -152,7 +179,7 @@
 
                         <div class="mb-3">
                             <!--------submit button -------->
-                            <button type="submit" class="btn btn-block text-uppercase">
+                            <button type="submit" class="btn btn-block text-uppercase" name="login_user">
                                 Log in
                             </button>
                         </div>
@@ -163,7 +190,7 @@
                         <!-- create account -->
                         <div class="text-center mb-2">
                             Don't have an account?
-                            <a href="signup_form.html" class="register-link">
+                            <a href="signup_form.php" class="register-link">
                                 Create here
                             </a>
                         </div>
@@ -173,6 +200,6 @@
             </div>
         </div>
     </div>
-
+    <script src = "login.js"></script>
 </body>
 </html>
