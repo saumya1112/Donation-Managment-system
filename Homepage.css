@@ -120,10 +120,10 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 	margin-top: 100px;
 	margin-left: 20%;
     background-color:red;
-    /*border-radius: 5px;*/add
+    /*border-radius: 5px;*/
 	font-size:20px;
 	border-color: red;
-    height:40px
+    height:40px;
 }
 .start a{
 	text-decoration: none;
@@ -342,7 +342,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 	color: orangered;
 }
 
-
+/*===========================news-section===========================*/
 #news-section{
     padding: 70px 0px;
     background-color: #fff;
@@ -355,7 +355,8 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
     text-align: center;
     font-weight: bold;
     font-size: 25px;
-   
+    width: 20%;
+	margin-left: 40%;
     color:white;
     background-color: rgb(124, 123, 123);
   }
