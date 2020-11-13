@@ -115,6 +115,23 @@ main #section-one .caption-holder .caption-main .leftArrow .arrow.arrowLeft{
 main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
 	transform: rotateZ(45deg);
 }
+.text .start{
+	width:250px;
+	margin-top: 100px;
+	margin-left: 20%;
+    background-color:red;
+    /*border-radius: 5px;*/add
+	font-size:20px;
+	border-color: red;
+    height:40px
+}
+.start a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
 
 /*----=========================Section Two=====================================------*/
 #section-two{
