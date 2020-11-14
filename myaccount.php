@@ -173,11 +173,11 @@
                 </div>
                 <div class="sidebar_link">
                     <i class="fa fa-user-secret"></i>
-                    <a href="#">About Us</a>
+                    <a href="About.php">About Us</a>
                 </div>
                 <div class="sidebar_link">
                     <i class="fa fa-calendar-check-o"></i>
-                    <a href="#">Forms</a>
+                    <a href="docharity.php">Forms</a>
                 </div>
                 <div class="sidebar_link">
                     <i class="fa fa-map-marker"></i>
@@ -185,11 +185,11 @@
                 </div>
                 <div class="sidebar_link">
                     <i class="fa fa-question-circle"></i>
-                    <a href="#">FAQs</a>
+                    <a href="faq_page.php">FAQs</a>
                 </div>
                 <div class="sidebar_link">
                     <i class="fa fa-envelope-open"></i>
-                    <a href="#">Feedback</a>
+                    <a href="contact us.php">Feedback</a>
                 </div>
                 
 
@@ -217,7 +217,7 @@
 
                     <h2>I Would Like To Donate</h2>
                    
-                        <a href="docharity.html"><button >DONATE NOW</button></a>
+                        <a href="docharity.php"><button >DONATE NOW</button></a>
                    
                     </div>
                 </div>
@@ -249,7 +249,7 @@
                 
                             <h2>I Would Like To Donate</h2>
                            
-                            <a href="docharity.html"><button >DONATE NOW</button></a>
+                            <a href="docharity.php"><button >DONATE NOW</button></a>
                             
                             </div>
                     </div>
@@ -281,7 +281,7 @@
 
                     <h2>I Would Like To Donate</h2>
                     
-                        <a href="docharity.html"><button id="button">DONATE NOW</button></a>
+                        <a href="docharity.php"><button id="button">DONATE NOW</button></a>
                   
                     </div>
 
