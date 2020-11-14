@@ -166,6 +166,7 @@ main{
     padding: 20px;
     -webkit-transition: all 0.5s;
     transition: all .5s;
+    
 }
 .sidebar_title > i{
     font-size: 18px;
@@ -231,7 +232,9 @@ main{
     left: 0 !important;
     position: absolute;
 }
-
+#sidebarIcon{
+    margin-left: 100px;
+}
 
 
 
@@ -319,7 +322,7 @@ tbody tr{
 
 
 /* ------table responsive------------ */
-@media(max-width: 740px){
+@media(max-width: 1250px){
 	table thead{
 		display: none;
 	}
@@ -344,6 +347,33 @@ tbody tr{
 		padding-left:15px;
 		font-size:15px;
 		font-weight: bold;
+		text-align: left;
+	}
+}
+@media(max-width: 500px){
+    table thead{
+		display: none;
+	}
+
+	table, table tbody, table tr, table td{
+		display: block;
+		width: 100%;
+	}
+	table tr{
+		margin-bottom:15px;
+	}
+	table td{
+		text-align: right;
+		/* padding-left: 10px; */
+		position: relative;
+	}
+	table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:12px;
+		font-size:10px;
 		text-align: left;
 	}
 }
@@ -411,6 +441,8 @@ tbody tr{
         box-shadow: 5px 5px 13px #f5f4f4 , -5px -5px  13px #ffffff ;
     }
 }
+
+
 
 
 
