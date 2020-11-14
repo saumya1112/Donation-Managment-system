@@ -1,3 +1,17 @@
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['username'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login_form.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['username']);
+  	header('location: index.html');
+  }
+?>
+
 <!DOCTYPE html>
  <html lang="en">
  <head>
@@ -12,7 +26,7 @@
    <title>Contact Us</title>
     </head>
      <body>
-      <div class="header">
+     <div class="header">
         <!-- Logo -->
         <nav id="logo"><a class="navbar-brand" href="#"><img src="assets/images/logo.jpeg"> Find Fortune</a></nav>
         <!-- Logo-->
@@ -20,33 +34,34 @@
         <label for="chk" class="show-btn">
             <i class="fa fa-bars" ></i>
         </label>
-        <form action="">
         <ul class="menu">
             <!-- Links -->
-            <li><a href="About.html">About Us</a></li>
-            <li><a href="faq_page.html">FAQ</a></li>
-            <li class = "dropdown"><a href="docharity.html">Do Charity<i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                <ul class="submenu">
-                    <li> <a href="docharity.html#individual">Individual</a></li>
-                    <li><a href="docharity.html#emergency">Emergency</a></li>
-                    <li><a href="docharity.html#organization">Organization</a></li>
-                </ul>
-            </li>
-            <li><a href="#">My Account</a></li>
-            <li><a href="contact us.html">Contact Us</a></li>
-            <li>
-                    <!------logout button ------>
-                    <a href="Home page.php?logout='1'"> 
-                    <input type="submit" value = "Log out" name = "logout" class = "logout"></a>
-            </li>
+
+           <li><a href="About.php">About Us</a></li>
+           <li><a href="faq_page.php">FAQ</a></li>
+           <li class = "dropdown"><a href="docharity.php">Do Charity<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <ul class="submenu">
+                <li> <a href="docharity.php#individual">Individual</a></li>
+                <li><a href="docharity.php#emergency">Emergency</a></li>
+                <li><a href="docharity.php#organization">Organization</a></li>
+            </ul>
+        </li>
+        <li><a href="myaccount.php">My Account</a></li>
+        <li><a href="contact us.php">Contact Us</a></li>
+        <li>
+          <!------logout button ------>
+          <a href="Home.php?logout='1'"> 
+          <input type="submit" value = "Log out" name = "logout" class = "logout"></a>
+        </li>
+           
+           
            <label for="chk" class="hide-btn">
                <i class="fa fa-times" ></i>
            </label>
-       </ul>
-       </form>
+        </ul>
+       
     </div>
-    
-    <br><br><br><br><br>
+    <br><br><br><br><br><br>
    <!-- contact section -->
          <section id="contact-section">
            <div class="container">
@@ -64,12 +79,13 @@
                
                    <!-- second grid -->
            <div>        
-             <form>
-               <input type="text" placeholder="Your Name" required class="inputa">
-               <input type="text" placeholder="Last Name"class="inputa"><br>
-               <input type="Email" placeholder="Email" required class="inputa"><br>
-               <input type="text" placeholder="Subject of this message" class="inputa"><br>
-               <textarea name="message" placeholder="Message" rows="5" required class="inputa"></textarea><br>
+             <form action="connect.php" method="POST">
+               <input type="text" name="yourname" placeholder="Your Name" required class="inputa"><br><br>
+               <input type="text"name="lastname" placeholder="Last Name"class="inputa"><br><br>
+               <input type="Email" name="email" placeholder="Email" required class="inputa"><br><br>
+               <input type="text"name="phone" placeholder="Phone" required class="inputa"><br><br>
+               <input type="text" name="subject"placeholder="Subject of this message" class="inputa"><br><br>
+               <textarea name="message"name="message" placeholder="Message" rows="5" required class="inputa"></textarea><br>
                <button class="submit" >Send Message</button> 
              </form>   
                </div>
@@ -88,7 +104,7 @@
                   <!-- Grid column1 -->
                  <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
                      <h3>Find Fortune</h3>
-                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error incidunt voluptates possimus vero aut est!</p> 
+                     <p>Hope for Children is an international charity working towards a world where every child has a happy childhood that sets them up for a positive future.</p> 
                                   
                  </div>
                   <!-- Grid column1 -->
@@ -123,7 +139,7 @@
                    <!-- Grid column 4-->
                    <div class="col-md-3 col-sm-6 col-xs-12 segment-four ">
                       <h2>Our Newsletter</h2>
-                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt quam id adipisci assumenda quasi ad.</p>
+                      <p>We are helping to change this by delivering education, health, livelihoods and Child Rights projects that benefit thousands of children and families each year.</p>
                        <!-- Form -->
                        <form action="">
                           <input type="email">

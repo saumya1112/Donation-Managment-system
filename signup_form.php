@@ -35,6 +35,21 @@
             box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
         }
 
+        .error {
+            width: 92%; 
+            margin: 0px auto; 
+            margin-bottom: 20px;
+            padding: 8px; 
+            border: 1px solid #cc3300; 
+            color: white;
+            font-size: 18px;
+            font-weight:bold; 
+            background: #ff9966; 
+            border-radius: 5px; 
+            text-align: center;
+        }
+
+
         /* -----------image--------------- */
         .img-left
         {
@@ -179,7 +194,7 @@
                         <!-- create account -->
                         <div class="text-center mb-2">
                             Already have an account?
-                            <a href="login_form.html" class="register-link">
+                            <a href="login_form.php" class="register-link">
                                 Login
                             </a>
                         </div>
