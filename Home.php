@@ -109,17 +109,17 @@
                     <div class="box-1">
                             <h1><b>DONATE NOW</b></h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae adipisci in totam, tenetur expedita tempore corrupti vero optio ad. Nisi!</p>
-                            <a href="">Read More</a>
+                            
                         </div>
                         <div class="box-2">
                             <h1><b>JOIN US NOW</b></h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima fugit porro. Reprehenderit repellat facere, officia ex iusto quos. Molestias.</p>
-                            <a href="#">Read More</a>
+                           
                         </div>
                         <div class="box-3">
                             <h1><b>GET INVOLVED</b></h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia beatae veniam incidunt, dolor nihil reiciendis adipisci molestiae cumque quam.</p>
-                            <a href="#">Read More</a>
+                            
                         </div>
             </section>
             <!---------------------------------------------------------section-three----------------------------->
@@ -130,7 +130,7 @@
                 <div class="every">
                         <h2>EVERYONE.EVERYWHERE<br>EQUAL VALUE</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum voluptates ipsa quisquam deserunt reprehenderit ipsam? Voluptatum, quidem repudiandae. Dolore optio aperiam laboriosam modi distinctio magni autem molestias perferendis minus!</p>
-                        <a href="#"><b>LEARN MORE...</b></a>
+                        <a href="About.php"><b>LEARN MORE...</b></a>
                     </div>
             </section>
             <!---=========================================================section-four======================-->
@@ -162,11 +162,12 @@
                 <h1><b>NO ONE HAS EVER BECOME POOR BY GIVING</b></h1>
                 <p>The message of The Faithland is that Christ saves sinners. In light of<br>
                         that, we steward a message that radically changes lives.</p>
-                <a href="#"><b>GET DONATE NOW!</b></a>
+                <a href="docharity.php"><b>GET DONATE NOW!</b></a>
                
             </section>
             <!-- ==================================news carousel ====================================== -->
-<section id="news-section">
+ 
+ <section id="news-section">
     <div class="news-title">
       <h3>BE FIRST TO READ</h3>
       <h1>LATEST NEWS</h1>
@@ -177,7 +178,7 @@
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:300px;height:300px;">
+                <img src="https://images.unsplash.com/photo-1575356891535-a79c0bc6bffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:100%;height:300px;">
               </div>
               <div class="flip-card-back">
                 <h1>Emergency</h1>
@@ -193,7 +194,7 @@
                Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
                animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
             <div class="flip-content-a">
-              <a href="">Read More</a>
+              <a href="www.google.com">Read More</a>
             </div>
           </div>
         </div>
@@ -202,7 +203,7 @@
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:300px;height:300px;">
+                <img src="https://images.unsplash.com/photo-1593692921340-fc60d23770c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:300px;height:300px;">
               </div>
               <div class="flip-card-back">
                 <h1>John Doe</h1>
@@ -218,7 +219,7 @@
                Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
                animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
             <div class="flip-content-a">
-              <a href="">Read More</a>
+              <a href="www.google.com">Read More</a>
             </div>
           </div>      
         </div>
@@ -227,7 +228,7 @@
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:300px;height:300px;">
+                <img src="https://images.unsplash.com/photo-1601931163309-fe9459564c03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:300px;height:300px;">
               </div>
               <div class="flip-card-back">
                 <h1>John Doe</h1>
@@ -243,7 +244,7 @@
                Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
                animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
             <div class="flip-content-a">
-              <a href="">Read More</a>
+              <a href="www.google.com">Read More</a>
             </div>
           </div> 
         </div>
@@ -260,7 +261,7 @@
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:100%;height:300px;">
+                <img src="https://images.unsplash.com/photo-1593113630400-ea4288922497?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:100%;height:300px;">
               </div>
               <div class="flip-card-back">
                 <h1>John Doe</h1>
@@ -276,7 +277,7 @@
                Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
                animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
             <div class="flip-content-a">
-              <a href="">Read More</a>
+              <a href="www.google.com">Read More</a>
             </div>
           </div>
         </div>
@@ -285,7 +286,7 @@
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:300px;height:300px;">
+                <img src="https://images.unsplash.com/photo-1600336153113-d66c79de3e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:300px;height:300px;">
               </div>
               <div class="flip-card-back">
                 <h1>John Doe</h1>
@@ -301,7 +302,7 @@
                Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
                animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
             <div class="flip-content-a">
-              <a href="">Read More</a>
+              <a href="www.google.com">Read More</a>
             </div>
           </div>      
         </div>
@@ -310,7 +311,7 @@
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:300px;height:300px;">
+                <img src="https://images.unsplash.com/photo-1532372722026-28ddb1b48daf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
               </div>
               <div class="flip-card-back">
                 <h1>John Doe</h1>
@@ -326,7 +327,7 @@
                Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
                animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
             <div class="flip-content-a">
-              <a href="">Read More</a>
+              <a href="www.google.com">Read More</a>
             </div>
           </div> 
         </div>
@@ -336,8 +337,8 @@
   
   
     
-  </section>
-            </main>
+  </section> 
+</main>
 
 <!--==============================javascript-file================================================S-->
 <script src="home.js"></script>
@@ -364,11 +365,11 @@
                         <!-- Links -->
                        <h2>Useful  Link</h2>
                       <ul>
-                          <li><a href="">Event</a></li>
-                          <li><a href="">Event</a></li>
-                          <li><a href="">Event</a></li>
-                          <li><a href="">Event</a></li>
-                          <li><a href="">Event</a></li>
+                      <li><a href="About.php">About Us</a></li>
+                          <li><a href="faq_page.php">FAQ</a></li>
+                          <li><a href="docharity.php">Do Charity</a></li>
+                          <li><a href="myaccount.php">My Account</a></li>
+                          <li><a href="contact us.php">Contact Us</a></li>
                       </ul>
                                     
                    </div>
@@ -379,10 +380,10 @@
                         <h2>Follow Us</h2>
                         <!-- Links -->
                         <p>Please Follow us on our Social Media Profile In order to keep updated.</p>
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="www.pinterest.ca"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        <a href="www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="www.linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                     <!-- Grid column3 -->
 
