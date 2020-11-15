@@ -20,7 +20,7 @@
 
         <!-- -----------Top Navbar----------- -->
         <nav class="navbar">
-            <div class="nav_icon" onclick='toggleSlider()'>
+            <div class="nav_icon" onclick="toggleSlider()">
                 <i class="fa fa-bars"></i>
             </div>
             <div class="navbar_left">
@@ -28,6 +28,7 @@
                 <a href="#report">Reports</a>
             </div>
         </nav>
+
 
 
 
@@ -129,7 +130,7 @@
                                       <tr>
                                        
                                         <td data-label="Name"><?php echo $data['name']; ?></td>
-                                        <td data-label="Email"><?php echo $data['email']; ?></td>
+                                        <td data-label="Mail"><?php echo $data['email']; ?></td>
                                         <td data-label="City"><?php echo $data['city']; ?></td>
                                         <td data-label="Donated Items"><?php echo $data['Donatething']; ?></td>
                                         <td data-label="Item1"><?php echo $data['thing1']; ?></td>
@@ -156,12 +157,12 @@
         
 
 
-
+                                
 
         <!-- ------------Side navbar----------------- -->
         <div id="sidebar">
             <div class="sidebar_title">
-                <i class="fa fa-times" id="sidebarIcon" onclick="closeSidebar"></i>
+                <i class="fa fa-times" id="sidebarIcon" onclick="closeSidebar()"></i>
             </div>
 
 
@@ -172,16 +173,25 @@
                 </div>
                 <div class="sidebar_link">
                     <i class="fa fa-user-secret"></i>
-                    <a href="About.html">About Us</a>
+                    <a href="About.php">About Us</a>
                 </div>
                 <div class="sidebar_link">
                     <i class="fa fa-calendar-check-o"></i>
-                    <a href="docharity.html">Forms</a>
+                    <a href="docharity.php">Forms</a>
                 </div>
                 <div class="sidebar_link">
-                    <i class="fa fa-files-o"></i>
-                    <a href="contact us.html">Feedback</a>
+                    <i class="fa fa-map-marker"></i>
+                    <a href="google_map.html">Location</a>
                 </div>
+                <div class="sidebar_link">
+                    <i class="fa fa-question-circle"></i>
+                    <a href="faq_page.php">FAQs</a>
+                </div>
+                <div class="sidebar_link">
+                    <i class="fa fa-envelope-open"></i>
+                    <a href="contact us.php">Feedback</a>
+                </div>
+                
 
                 <h2>Situations</h2>
                 <div class="sidebar_link" id="org">
@@ -207,7 +217,7 @@
 
                     <h2>I Would Like To Donate</h2>
                    
-                        <a href="docharity.html"><button >DONATE NOW</button></a>
+                        <a href="docharity.php"><button >DONATE NOW</button></a>
                    
                     </div>
                 </div>
@@ -217,7 +227,7 @@
 
 
                 <div class="sidebar_link" id="emg">
-                    <i class="fa fa-archive"></i>
+                    <i class="fa fa-heartbeat"></i>
                     <a href="#">Emergency</a>
                 </div>
 
@@ -239,7 +249,7 @@
                 
                             <h2>I Would Like To Donate</h2>
                            
-                            <a href="docharity.html"><button >DONATE NOW</button></a>
+                            <a href="docharity.php"><button >DONATE NOW</button></a>
                             
                             </div>
                     </div>
@@ -248,7 +258,7 @@
 
 
                 <div class="sidebar_link" id="ind">
-                    <i class="fa fa-sign-out"></i>
+                    <i class="fa fa-file-image-o"></i>
                     <a href="#">Individual</a>
                 </div>
 
@@ -271,7 +281,7 @@
 
                     <h2>I Would Like To Donate</h2>
                     
-                        <a href="docharity.html"><button id="button">DONATE NOW</button></a>
+                        <a href="docharity.php"><button id="button">DONATE NOW</button></a>
                   
                     </div>
 
@@ -289,23 +299,23 @@
     </div>
 
 
-
+    
     <!-- -------------------Add js for toggle---------------- -->
     <script>
         var sidebarOpen = false;
         var sidebar =document.getElementById("sidebar");
         var sidebarCloseIcon = document.getElementById("sidebarIcon");
 
-        function togggleSidebar(){
+        function toggleSlider(){
             if(!sidebarOpen){
-                sidebar.classList.add('sidebar_responsive');
+                sidebar.classList.add("sidebar_responsive");
                 sidebarOpen = true;
             }
         }
 
         function closeSidebar(){
-            if(!sidebarOpen){
-                sidebar.classList.add('sidebar_responsive');
+            if(sidebarOpen){
+                sidebar.classList.remove("sidebar_responsive");
                 sidebarOpen = false;
             }
         }
