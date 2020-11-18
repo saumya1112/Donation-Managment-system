@@ -108,17 +108,22 @@
             <section id="section-two">
                     <div class="box-1">
                             <h1><b>DONATE NOW</b></h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae adipisci in totam, tenetur expedita tempore corrupti vero optio ad. Nisi!</p>
+                            <p>Please donate your ideas, thoughts or money and help us change the world. With a financial donation you can help us connect people and create partnerships around the world and through that, help us help people. .</p>
                             
                         </div>
                         <div class="box-2">
                             <h1><b>JOIN US NOW</b></h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima fugit porro. Reprehenderit repellat facere, officia ex iusto quos. Molestias.</p>
+                            <p>Complete online fundraising system for active, participatory events. Includes registration, team and individual pages, progress bars, leader tables, and customizable emails.
+
+                              School walk-a-thons
+                              Cold water plunges
+                              Mutt struts
+                              Dragon boat races</p>
                            
                         </div>
                         <div class="box-3">
                             <h1><b>GET INVOLVED</b></h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia beatae veniam incidunt, dolor nihil reiciendis adipisci molestiae cumque quam.</p>
+                            <p>Few companies existed to help non-profits raise money online. We set out to change that by creating a company founded on the desire to blend a business opportunity with a chance to do some good. We helped many large charities launch online giving including:</p>
                             
                         </div>
             </section>
@@ -138,19 +143,19 @@
                     <div class="box">
                             <h1><b>468</b></h1>
                             <h3><b>Succesful Project</b></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae adipisci in totam, tenetur expedita tempore corrupti vero optio ad. Nisi!</p>
+                            <p>Our main objective is to increase the scale of our work and reach more children in conflict areas. In 2018, the number of children, young people and adults who received direct support from us was 123,182.</p>
                             
                         </div>
                         <div class="box">
                             <h1><b>1534</b></h1>
                             <h3><b>People Impacted</b></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima fugit porro. Reprehenderit repellat facere, officia ex iusto quos. Molestias.</p>
+                            <p>We promise to respect you and your decisions. we will do all we can to ensure that no agencies working on our behalf will do so either.</p>
                             
                         </div>
                         <div class="box">
                             <h1><b>$144</b></h1>
                             <h3><b>Money Donated</b></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia beatae veniam incidunt, dolor nihil reiciendis adipisci molestiae cumque quam.</p>
+                            <p>Where schools have closed, we are working on home education kits which will mean poor children without books or basic stationary at home can continue to learn and play.</p>
                             
                         </div>
                         
@@ -189,10 +194,8 @@
             </div>
           </div>
           <div class="flip-content">
-            <h4>Lorem ipsum dolor sit</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-               Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
-               animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
+            <h4>Health & Nutrition</h4>
+            <p>We provide crucial healthcare support to children, including newborns, infants, young children and adolescentsSupport Save the Children's humanitarian response for the worst-affected amidst the ongoing crisis</p>
             <div class="flip-content-a">
               <a href="www.google.com">Read More</a>
             </div>
@@ -214,10 +217,8 @@
             </div>
           </div>
           <div class="flip-content">
-            <h4>Lorem ipsum dolor sit</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-               Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
-               animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
+            <h4>Child Protection</h4>
+            <p>Through our work, we protect children from different forms of harm, including child labour, child marriage, abuse  the Children is mounting a long term, comprehensive yet agile response for marginalised children and  in India.</p>
             <div class="flip-content-a">
               <a href="www.google.com">Read More</a>
             </div>
@@ -239,10 +240,8 @@
             </div>
           </div>
           <div class="flip-content">
-            <h4>Lorem ipsum dolor sit</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-               Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
-               animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
+            <h4>Education</h4>
+            <p>During emergencies, when children are the most vulnerable, we provide life-saving relief and rehabilitation support to them and their communities. It is a time when children discover the world in their own way.</p>
             <div class="flip-content-a">
               <a href="www.google.com">Read More</a>
             </div>
@@ -272,10 +271,8 @@
             </div>
           </div>
           <div class="flip-content">
-            <h4>Lorem ipsum dolor sit</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-               Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
-               animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
+            <h4>A Three Day Training For Teachers</h4>
+            <p>Starting today Save the Children's Uttar Pradesh State Programme Office is conducting a three-day training for teachers on Building learner-friendly environment in schools. </p>
             <div class="flip-content-a">
               <a href="www.google.com">Read More</a>
             </div>
@@ -297,10 +294,8 @@
             </div>
           </div>
           <div class="flip-content">
-            <h4>Lorem ipsum dolor sit</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-               Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
-               animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
+            <h4>Our impact</h4>
+            <p>Nonprofits have the funding they need to listen to feedback and try out new ways to work; communities all over the globe get more awesome!to build new skills, and to make important connections.</p>
             <div class="flip-content-a">
               <a href="www.google.com">Read More</a>
             </div>
@@ -322,10 +317,8 @@
             </div>
           </div>
           <div class="flip-content">
-            <h4>Lorem ipsum dolor sit</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-               Modi quidem vel adipisci ea delectus laudantium obcaecati similique quae perferendis,
-               animi minus est maxime. Dolorem ipsa pariatur illo et dicta culpa!</p>
+            <h4>Donors</h4>
+            <p>People like you give what you can to your favorite projects; you feel great when you get updates about how your money is put to work by trusted organizations.which can create a strong organisation.</p>
             <div class="flip-content-a">
               <a href="www.google.com">Read More</a>
             </div>
@@ -355,7 +348,7 @@
                     <!-- Grid column1 -->
                    <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
                        <h3>Find Fortune</h3>
-                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error incidunt voluptates possimus vero aut est!</p> 
+                       <p>Hope for Children is an international charity working towards a world where every child has a happy childhood that sets them up for a positive future.</p> 
                                     
                    </div>
                     <!-- Grid column1 -->
@@ -390,7 +383,7 @@
                      <!-- Grid column 4-->
                      <div class="col-md-3 col-sm-6 col-xs-12 segment-four ">
                         <h2>Our Newsletter</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt quam id adipisci assumenda quasi ad.</p>
+                        <p>We are helping to change this by delivering education, health, livelihoods and Child Rights projects that benefit thousands of children and families each year.</p>
                          <!-- Form -->
                          <form action="">
                             <input type="email">
