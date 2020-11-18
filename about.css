@@ -99,17 +99,18 @@ body{
 
 .service-img{
     background: url('../Donation-Managment-system/assets/images/about-service.jpg');
-    height: 100vh;
+    height: 90vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
+    margin-top: 30px;
     opacity: 0.7;
 }
 
 .service-txt{
     position: absolute;
-    top: 143%;
+    top: 130%;
     left: 0%;
     transform: translate(-0%, -15%);
     padding: 20px;
@@ -120,6 +121,7 @@ body{
 .service-txt h1{
     margin-left: 20px;
     margin-right: 850px;
+    margin-bottom: 20px;
     padding: 10px;
     font-size: 35px; 
     background-color: black;
@@ -133,10 +135,11 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     background-color: white;
+    
 }
 
 .service-txt .box img{
-    height: 250px;
+    height: 300px;
     width: 100%;
 }
 
@@ -153,20 +156,7 @@ body{
     color: black;
 }
 
-.service-txt .box a{
-    text-decoration: none;
-    float: right;
-    color: black;
-    border: 2px solid black;
-    padding: 8px;
-    margin: 10px;
-    font-weight: bold;
-}
 
-.service-txt .box a:hover{
-    border-radius: 10px;
-    background-color: skyblue;
-}
 
 .team h1{
     text-align: center;
