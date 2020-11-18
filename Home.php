@@ -134,7 +134,7 @@
                 </div>
                 <div class="every">
                         <h2>EVERYONE.EVERYWHERE<br>EQUAL VALUE</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum voluptates ipsa quisquam deserunt reprehenderit ipsam? Voluptatum, quidem repudiandae. Dolore optio aperiam laboriosam modi distinctio magni autem molestias perferendis minus!</p>
+                        <p>We  work with children and young people to change systems and practicesthat affect them. We campaign on the root causes of conflict,and we demand that children are at the center of all humanitarian responses.</p>
                         <a href="About.php"><b>LEARN MORE...</b></a>
                     </div>
             </section>
