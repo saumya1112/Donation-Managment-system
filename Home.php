@@ -17,13 +17,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <title>About</title>
     <!--<link rel="stylesheet" href="about.css">-->
-=======
-    <title>Home</title>
-    <link rel="stylesheet" href="Homepage.css">
->>>>>>> f4ec4eec6a236091ce8e6061cdcb625ed1da6514
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Icon css link -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -108,22 +103,19 @@
             <section id="section-two">
                     <div class="box-1">
                             <h1><b>DONATE NOW</b></h1>
-                            <p>Please donate your ideas, thoughts or money and help us change the world. With a financial donation you can help us connect people and create partnerships around the world and through that, help us help people. .</p>
+                            <p>Please donate your ideas, thoughts or money and help us change the world. With a financial donation you can help us connect people and create partnerships around the world and through that, help us help people. </p>
                             
                         </div>
                         <div class="box-2">
                             <h1><b>JOIN US NOW</b></h1>
                             <p>Complete online fundraising system for active, participatory events. Includes registration, team and individual pages, progress bars, leader tables, and customizable emails.
 
-                              School walk-a-thons
-                              Cold water plunges
-                              Mutt struts
-                              Dragon boat races</p>
+                              </p>
                            
                         </div>
                         <div class="box-3">
                             <h1><b>GET INVOLVED</b></h1>
-                            <p>Few companies existed to help non-profits raise money online. We set out to change that by creating a company founded on the desire to blend a business opportunity with a chance to do some good. We helped many large charities launch online giving including:</p>
+                            <p>Few companies existed to help non-profits raise money online. We set out to change that by creating a company founded on the desire to blend a business opportunity with a chance to do some good.</p>
                             
                         </div>
             </section>
@@ -143,7 +135,7 @@
                     <div class="box">
                             <h1><b>468</b></h1>
                             <h3><b>Succesful Project</b></h3>
-                            <p>Our main objective is to increase the scale of our work and reach more children in conflict areas. In 2018, the number of children, young people and adults who received direct support from us was 123,182.</p>
+                            <p>Our main objective is to increase the scale of our work and reach more children in conflict areas. </p>
                             
                         </div>
                         <div class="box">
@@ -155,7 +147,7 @@
                         <div class="box">
                             <h1><b>$144</b></h1>
                             <h3><b>Money Donated</b></h3>
-                            <p>Where schools have closed, we are working on home education kits which will mean poor children without books or basic stationary at home can continue to learn and play.</p>
+                            <p>Where schools have closed, we are working on home education kits which will mean poor children without books at home can continue to learn and play.</p>
                             
                         </div>
                         
