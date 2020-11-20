@@ -114,11 +114,14 @@
             <div class="circle neeti"><img src="../Donation-Managment-system/assets/images/Neeti.jpeg" alt=""></div>
         <!-- </div> -->
         <div class="boxes">
-            <div class="box-1"><h3>Saumya Gupta</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
-            <div class="box-1 phn-b"><h3>Unnati Goyal</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
-            <div class="box-1 phn-b"><h3>Nandinee Gupta</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde dolorum.</p></div>
-            <div class="box-1 roshni-b phn-b"><h3>Roshni Rawat</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
-            <div class="box-1 neeti-b phn-b"><h3>Neeti Jain</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
+            <div class="box-1"><h3>Saumya Gupta</h3><p><h4>Section-B<br>Work-Frontend and Backend<br>Location-Firozabad</h4></p></div>
+            <div class="box-1 phn-b"><h3>Unnati Goyal</h3><p><h4>Section-B<br>Work-Frontend and Backend<br>Location-Mathura</h4></p></div>
+            <div class="box-1 phn-b"><h3>Nandinee Gupta</h3><p><h4>Section-B<br>Work-Frontend<br>Location-Kanpur</h4></p></div>
+            <div class="box-1 roshni-b phn-b"><h3>Roshni Rawat</h3><p><h4>Section-B<br>Work-Frontend<br>Location-Mathura(Koshi)</h4></p></div>
+            <div class="box-1 neeti-b phn-b"><h3>Neeti Jain</h3><p><h4>Section-K<br>Work-Frontend and Backend<br>Location-Agra(Shamsabad)</h4></p></div>
+        </div>
+    </div>
+    
         </div>
     </div>
     
