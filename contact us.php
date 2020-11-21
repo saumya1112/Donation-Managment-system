@@ -61,7 +61,7 @@
         </ul>
        
     </div>
-    <br><br><br><br><br><br>
+    <br><br><br><br>
    <!-- contact section -->
          <section id="contact-section">
            <div class="container">
@@ -114,11 +114,11 @@
                       <!-- Links -->
                      <h2>Useful  Link</h2>
                     <ul>
-                        <li><a href="">Event</a></li>
-                        <li><a href="">Event</a></li>
-                        <li><a href="">Event</a></li>
-                        <li><a href="">Event</a></li>
-                        <li><a href="">Event</a></li>
+                          <li><a href="About.php">About Us</a></li>
+                          <li><a href="faq_page.php">FAQ</a></li>
+                          <li><a href="docharity.php">Do Charity</a></li>
+                          <li><a href="myaccount.php">My Account</a></li>
+                          <li><a href="contact us.php">Contact Us</a></li>
                     </ul>
                                   
                  </div>
@@ -129,10 +129,10 @@
                       <h2>Follow Us</h2>
                       <!-- Links -->
                       <p>Please Follow us on our Social Media Profile In order to keep updated.</p>
-                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                      <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                      <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                      <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="www.pinterest.ca"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        <a href="www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="www.linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                   </div>
                   <!-- Grid column3 -->
 

@@ -12,7 +12,7 @@ main #section-one{
 }
 @keyframes animate{
     0%,100%{
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('https://c1.wallpaperflare.com/preview/1015/464/838/child-children-girl-happy-thumbnail.jpg');
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
     }
     25%{
         background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('https://images.pexels.com/photos/1739842/pexels-photo-1739842.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
@@ -282,7 +282,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("https://c1.wallpaperflare.com/preview/264/421/89/child-children-girl-happy-thumbnail.jpg");
+    background-image: url("https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-size: cover;
 } 
 
@@ -445,15 +445,22 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
     color: white;
     transform: rotateY(180deg);
   }
-  
+  .flip-card-back p {
+   
+    color:black;
+	font-size: 20px;
+	padding-top: 20px;
+  }
   .flip-card-back button{
-    background: #FEAA71;
+    background: black;
     color: white;
     transition: transform .2s; /* Animation */
   }
   .flip-card-back button:hover{
-    color: #FEAA71;
-    background: rgb(0, 0, 0, 0.8);
+    color: black;
+	background: white;
+	border: 1px solid black;
+	
     transform: scale(1.1);
   }
   
@@ -462,8 +469,9 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 30px;
-    transition: 0.5s;
-    background-color:blue;
+	transition: 0.5s;
+	
+    background-color:rgb(207, 133, 58);
     /*border: 1px solid black;*/
   }
   
@@ -508,7 +516,7 @@ main #section-one .caption-holder .caption-main .rightArrow .arrow.arrowRight{
   
   .flip-content a:hover{
     text-decoration: none;
-    background: #ffcef3;
+    background: white;
     color: black;
     font-weight: bold;
     letter-spacing: 4px;
@@ -1027,4 +1035,4 @@ main #section-one .caption-holder .caption-main .rightArrow{
 }
 
 
-  
+}

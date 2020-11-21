@@ -70,8 +70,8 @@
         <h1>Donate</h1>
         <h3>for a better world</h3>
         <p>Find Fortune is a Social, Cultural, Economic, Health, Educational, relief and rural/urban community development organisation. We are committed to the Millennium development goals. Our vision is for a just and compassionate Indian society in which all people will have the opportunity to achieve their optimum potential. </p>
-        <a href="#">Donate Now</a>
-        <a href="#">Contact Us</a>
+        <a href="docharity.php">Donate Now</a>
+        <a href="contact us.php">Contact Us</a>
     </div>
 
     <div class="about-us">
@@ -88,19 +88,19 @@
             <img src="../Donation-Managment-system/assets/images/about-ind.jpg" alt="">
             <h2>Individual</h2>
             <p>While Save the Children appreciates monthly donations where you choose to donate a small fixed amount monthly for us to be able to plan our programmes for a longer term, a single donation can also help save a child.</p>
-            <a href="#">Read More</a>
+           
         </div>
         <div class="box">
             <img src="../Donation-Managment-system/assets/images/about-org.jpg" alt="">
             <h2>Organization</h2>
             <p>If there's one organisation through which Indians can choose to commit to give their country a better future through children , their right to a childhood they can cherish and an adulthood that Indians deserve, it is Save the Children.</p>
-            <a href="#">Read More</a>
+            
         </div>
         <div class="box">
             <img src="../Donation-Managment-system/assets/images/about-emr.jpg" alt="">
             <h2>Emergency</h2>
             <p>Our core is our programmes, whether it is the remotest corners of the country or the most disaster-torn or dangerous areas or slums in metros, we do whatever it takes to help children shine in life.</p>
-            <a href="#">Read More</a>
+          
         </div>
     </div>
     <br>
@@ -114,11 +114,14 @@
             <div class="circle neeti"><img src="../Donation-Managment-system/assets/images/Neeti.jpeg" alt=""></div>
         <!-- </div> -->
         <div class="boxes">
-            <div class="box-1"><h3>Saumya Gupta</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
-            <div class="box-1 phn-b"><h3>Unnati Goyal</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
-            <div class="box-1 phn-b"><h3>Nandinee Gupta</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde dolorum.</p></div>
-            <div class="box-1 roshni-b phn-b"><h3>Roshni Rawat</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
-            <div class="box-1 neeti-b phn-b"><h3>Neeti Jain</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sequi inventore eius dolore blanditiis facere unde! Doloribus aut aliquam dolorum.</p></div>
+            <div class="box-1"><h3>Saumya Gupta</h3><p><h4>Section-B<br>Work-Frontend and Backend<br>Location-Firozabad</h4></p></div>
+            <div class="box-1 phn-b"><h3>Unnati Goyal</h3><p><h4>Section-B<br>Work-Frontend and Backend<br>Location-Mathura</h4></p></div>
+            <div class="box-1 phn-b"><h3>Nandinee Gupta</h3><p><h4>Section-B<br>Work-Frontend<br>Location-Kanpur</h4></p></div>
+            <div class="box-1 roshni-b phn-b"><h3>Roshni Rawat</h3><p><h4>Section-B<br>Work-Frontend<br>Location-Mathura(Koshi)</h4></p></div>
+            <div class="box-1 neeti-b phn-b"><h3>Neeti Jain</h3><p><h4>Section-K<br>Work-Frontend and Backend<br>Location-Agra(Shamsabad)</h4></p></div>
+        </div>
+    </div>
+    
         </div>
     </div>
     
@@ -141,11 +144,11 @@
                         <!-- Links -->
                        <h2>Useful  Link</h2>
                       <ul>
-                          <li><a href="">Event</a></li>
-                          <li><a href="">Event</a></li>
-                          <li><a href="">Event</a></li>
-                          <li><a href="">Event</a></li>
-                          <li><a href="">Event</a></li>
+                          <li><a href="About.php">About Us</a></li>
+                          <li><a href="faq_page.php">FAQ</a></li>
+                          <li><a href="docharity.php">Do Charity</a></li>
+                          <li><a href="myaccount.php">My Account</a></li>
+                          <li><a href="contact us.php">Contact Us</a></li>
                       </ul>
                                     
                    </div>
@@ -156,10 +159,10 @@
                         <h2>Follow Us</h2>
                         <!-- Links -->
                         <p>Please Follow us on our Social Media Profile In order to keep updated.</p>
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="www.pinterest.ca"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        <a href="www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="www.linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                     <!-- Grid column3 -->
 

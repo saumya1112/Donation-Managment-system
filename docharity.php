@@ -90,7 +90,7 @@
                     <p class="blog-post-text">
                         A single step of yours can change a life of any individual. Come forward and donate for any cause you that you might think is the most crucial sector that needs help. You can either donate your time or your money or anything that can help anyone.
                     </p>
-                    <a href="#" class="blog-post-button">Donate Now</a>
+                    <a href="individual.php" class="blog-post-button">Donate Now</a>
                 </div>
             </div>
         </div>
@@ -109,7 +109,7 @@
                     <p class="blog-post-text">
                         Be a small helping hand or a little live supporting system for those who are alone in this big world. Donate for organizations who give home to homeless peoples and provide them food, education, health and many other essential items of daily needs to those who can’t afford all these.
                     </p>
-                    <a href="#" class="blog-post-button">Donate Now</a>
+                    <a href="organisation.php" class="blog-post-button">Donate Now</a>
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@
                         Problems are always uninvited, you never know what’s wrong happens with someone in the very next moment. So, it’s always better to be ready for such situations. Let’s donate for those who struck in natural calamities or for those who fight for their lives as well as for ours or for many unexpected problems like that.
 
                     </p>
-                    <a href="#" class="blog-post-button">Donate Now</a>
+                    <a href="emergency.php" class="blog-post-button">Donate Now</a>
                 </div>
             </div>
         </div>
@@ -155,11 +155,11 @@
                         <!-- Links -->
                        <h2>Useful  Link</h2>
                       <ul>
-                          <li><a href="">Event</a></li>
-                          <li><a href="">Event</a></li>
-                          <li><a href="">Event</a></li>
-                          <li><a href="">Event</a></li>
-                          <li><a href="">Event</a></li>
+                      <li><a href="About.php">About Us</a></li>
+                          <li><a href="faq_page.php">FAQ</a></li>
+                          <li><a href="docharity.php">Do Charity</a></li>
+                          <li><a href="myaccount.php">My Account</a></li>
+                          <li><a href="contact us.php">Contact Us</a></li>
                       </ul>
                                     
                    </div>
@@ -170,10 +170,11 @@
                         <h2>Follow Us</h2>
                         <!-- Links -->
                         <p>Please Follow us on our Social Media Profile In order to keep updated.</p>
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                      
+                        <a href="www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="www.pinterest.ca"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        <a href="www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="www.linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                     <!-- Grid column3 -->
 
